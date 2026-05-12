@@ -1,4 +1,4 @@
-name: Atualizar Relatorios Jira
+name: update-reports
 
 on:
   schedule:
