@@ -8,8 +8,8 @@
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
     "totalIssues": 1163,
-    "totalPoints": 5,
-    "velocityAvg": 0
+    "totalPoints": 2477,
+    "velocityAvg": 83
   },
   "sprints": [
     {
@@ -18,7 +18,7 @@
       "start": "2025-03-03",
       "end": "2025-03-14",
       "completedAt": "2025-03-14",
-      "points": 0,
+      "points": 93,
       "issues": 42,
       "growth": null
     },
@@ -28,9 +28,9 @@
       "start": "2025-03-18",
       "end": "2025-03-28",
       "completedAt": "2025-03-28",
-      "points": 0,
+      "points": 104,
       "issues": 45,
-      "growth": null
+      "growth": 11.8
     },
     {
       "id": 56,
@@ -38,9 +38,9 @@
       "start": "2025-03-31",
       "end": "2025-04-11",
       "completedAt": "2025-04-11",
-      "points": 0,
+      "points": 88,
       "issues": 39,
-      "growth": null
+      "growth": -15.4
     },
     {
       "id": 57,
@@ -48,9 +48,9 @@
       "start": "2025-04-14",
       "end": "2025-04-25",
       "completedAt": "2025-04-25",
-      "points": 0,
+      "points": 90,
       "issues": 29,
-      "growth": null
+      "growth": 2.3
     },
     {
       "id": 58,
@@ -58,9 +58,9 @@
       "start": "2025-04-29",
       "end": "2025-05-09",
       "completedAt": "2025-05-09",
-      "points": 0,
+      "points": 83,
       "issues": 31,
-      "growth": null
+      "growth": -7.8
     },
     {
       "id": 59,
@@ -68,9 +68,9 @@
       "start": "2025-05-12",
       "end": "2025-05-23",
       "completedAt": "2025-05-23",
-      "points": 0,
+      "points": 85,
       "issues": 34,
-      "growth": null
+      "growth": 2.4
     },
     {
       "id": 60,
@@ -78,9 +78,9 @@
       "start": "2025-05-26",
       "end": "2025-06-06",
       "completedAt": "2025-06-09",
-      "points": 0,
+      "points": 59,
       "issues": 25,
-      "growth": null
+      "growth": -30.6
     },
     {
       "id": 61,
@@ -88,9 +88,9 @@
       "start": "2025-06-09",
       "end": "2025-06-20",
       "completedAt": "2025-06-20",
-      "points": 0,
+      "points": 56,
       "issues": 26,
-      "growth": null
+      "growth": -5.1
     },
     {
       "id": 62,
@@ -98,9 +98,9 @@
       "start": "2025-06-23",
       "end": "2025-07-04",
       "completedAt": "2025-07-04",
-      "points": 2,
+      "points": 85,
       "issues": 44,
-      "growth": null
+      "growth": 51.8
     },
     {
       "id": 63,
@@ -108,9 +108,9 @@
       "start": "2025-07-07",
       "end": "2025-07-18",
       "completedAt": "2025-07-18",
-      "points": 0,
+      "points": 93,
       "issues": 48,
-      "growth": -100.0
+      "growth": 9.4
     },
     {
       "id": 64,
@@ -118,9 +118,9 @@
       "start": "2025-07-21",
       "end": "2025-08-01",
       "completedAt": "2025-08-01",
-      "points": 0,
+      "points": 64,
       "issues": 30,
-      "growth": null
+      "growth": -31.2
     },
     {
       "id": 65,
@@ -128,9 +128,9 @@
       "start": "2025-08-04",
       "end": "2025-08-15",
       "completedAt": "2025-08-15",
-      "points": 0,
+      "points": 78,
       "issues": 34,
-      "growth": null
+      "growth": 21.9
     },
     {
       "id": 66,
@@ -138,9 +138,9 @@
       "start": "2025-08-18",
       "end": "2025-08-29",
       "completedAt": "2025-09-01",
-      "points": 0,
+      "points": 58,
       "issues": 27,
-      "growth": null
+      "growth": -25.6
     },
     {
       "id": 67,
@@ -148,9 +148,9 @@
       "start": "2025-09-01",
       "end": "2025-09-12",
       "completedAt": "2025-09-12",
-      "points": 0,
+      "points": 81,
       "issues": 37,
-      "growth": null
+      "growth": 39.7
     },
     {
       "id": 68,
@@ -158,9 +158,9 @@
       "start": "2025-09-15",
       "end": "2025-09-26",
       "completedAt": "2025-09-26",
-      "points": 0,
+      "points": 90,
       "issues": 40,
-      "growth": null
+      "growth": 11.1
     },
     {
       "id": 69,
@@ -168,9 +168,9 @@
       "start": "2025-09-29",
       "end": "2025-10-10",
       "completedAt": "2025-10-10",
-      "points": 0,
+      "points": 75,
       "issues": 31,
-      "growth": null
+      "growth": -16.7
     },
     {
       "id": 70,
@@ -178,9 +178,9 @@
       "start": "2025-10-13",
       "end": "2025-10-24",
       "completedAt": "2025-10-24",
-      "points": 0,
+      "points": 102,
       "issues": 41,
-      "growth": null
+      "growth": 36.0
     },
     {
       "id": 71,
@@ -188,9 +188,9 @@
       "start": "2025-10-27",
       "end": "2025-11-07",
       "completedAt": "2025-11-07",
-      "points": 1,
+      "points": 123,
       "issues": 58,
-      "growth": null
+      "growth": 20.6
     },
     {
       "id": 72,
@@ -198,9 +198,9 @@
       "start": "2025-11-10",
       "end": "2025-11-21",
       "completedAt": "2025-11-21",
-      "points": 1,
+      "points": 88,
       "issues": 43,
-      "growth": 0.0
+      "growth": -28.5
     },
     {
       "id": 73,
@@ -208,9 +208,9 @@
       "start": "2025-11-24",
       "end": "2025-12-12",
       "completedAt": "2025-12-12",
-      "points": 1,
+      "points": 102,
       "issues": 55,
-      "growth": 0.0
+      "growth": 15.9
     },
     {
       "id": 74,
@@ -218,9 +218,9 @@
       "start": "2025-12-15",
       "end": "2025-12-26",
       "completedAt": "2025-12-29",
-      "points": 0,
+      "points": 46,
       "issues": 28,
-      "growth": -100.0
+      "growth": -54.9
     },
     {
       "id": 75,
@@ -228,9 +228,9 @@
       "start": "2025-12-29",
       "end": "2026-01-09",
       "completedAt": "2026-01-09",
-      "points": 0,
+      "points": 50,
       "issues": 36,
-      "growth": null
+      "growth": 8.7
     },
     {
       "id": 76,
@@ -238,9 +238,9 @@
       "start": "2026-01-12",
       "end": "2026-01-23",
       "completedAt": "2026-01-23",
-      "points": 0,
+      "points": 85,
       "issues": 43,
-      "growth": null
+      "growth": 70.0
     },
     {
       "id": 77,
@@ -248,9 +248,9 @@
       "start": "2026-01-26",
       "end": "2026-02-13",
       "completedAt": "2026-02-13",
-      "points": 0,
+      "points": 79,
       "issues": 48,
-      "growth": null
+      "growth": -7.1
     },
     {
       "id": 78,
@@ -258,9 +258,9 @@
       "start": "2026-02-16",
       "end": "2026-02-27",
       "completedAt": "2026-02-27",
-      "points": 0,
+      "points": 104,
       "issues": 58,
-      "growth": null
+      "growth": 31.6
     },
     {
       "id": 79,
@@ -268,9 +268,9 @@
       "start": "2026-03-02",
       "end": "2026-03-13",
       "completedAt": "2026-03-13",
-      "points": 0,
+      "points": 84,
       "issues": 34,
-      "growth": null
+      "growth": -19.2
     },
     {
       "id": 80,
@@ -278,9 +278,9 @@
       "start": "2026-03-16",
       "end": "2026-03-27",
       "completedAt": "2026-03-27",
-      "points": 0,
+      "points": 97,
       "issues": 44,
-      "growth": null
+      "growth": 15.5
     },
     {
       "id": 81,
@@ -288,9 +288,9 @@
       "start": "2026-03-30",
       "end": "2026-04-10",
       "completedAt": "2026-04-10",
-      "points": 0,
+      "points": 103,
       "issues": 50,
-      "growth": null
+      "growth": 6.2
     },
     {
       "id": 82,
@@ -298,9 +298,9 @@
       "start": "2026-04-13",
       "end": "2026-04-24",
       "completedAt": "2026-04-24",
-      "points": 0,
+      "points": 61,
       "issues": 32,
-      "growth": null
+      "growth": -40.8
     },
     {
       "id": 83,
@@ -308,96 +308,96 @@
       "start": "2026-04-27",
       "end": "2026-05-08",
       "completedAt": "2026-05-08",
-      "points": 0,
+      "points": 71,
       "issues": 31,
-      "growth": null
+      "growth": 16.4
     }
   ],
   "assignees": [
     {
-      "name": "Rodrigo Bitu de Moraes",
-      "totalPoints": 3,
-      "sprintsActive": 3,
-      "avgPerSprint": 1.0,
-      "teamPct": 60.0,
+      "name": "Lucas Juliano Schek",
+      "totalPoints": 1118,
+      "sprintsActive": 30,
+      "avgPerSprint": 37.3,
+      "teamPct": 45.1,
       "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        57,
+        46,
+        41,
+        36,
+        35,
+        36,
+        37,
+        37,
+        37,
+        42,
+        23,
+        39,
+        41,
+        40,
+        38,
+        39,
+        38,
+        41,
+        41,
+        46,
+        16,
+        35,
+        28,
+        23,
+        53,
+        49,
+        41,
+        48,
+        19,
+        16
       ]
     },
     {
       "name": "Andre de Leles e Souza",
-      "totalPoints": 2,
-      "sprintsActive": 1,
-      "avgPerSprint": 2.0,
-      "teamPct": 40.0,
+      "totalPoints": 918,
+      "sprintsActive": 30,
+      "avgPerSprint": 30.6,
+      "teamPct": 37.1,
       "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        36,
+        39,
+        35,
+        49,
+        39,
+        40,
+        22,
+        19,
+        48,
+        47,
+        41,
+        36,
+        17,
+        35,
+        52,
+        29,
+        34,
+        39,
+        27,
+        19,
+        21,
+        13,
+        28,
+        33,
+        28,
+        27,
+        28,
+        22,
+        12,
+        3
       ]
     },
     {
-      "name": "Lucas Juliano Schek",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "name": "Rodrigo Bitu de Moraes",
+      "totalPoints": 553,
+      "sprintsActive": 17,
+      "avgPerSprint": 32.5,
+      "teamPct": 22.3,
       "pointsBySprint": [
         0,
         0,
@@ -410,79 +410,40 @@
         0,
         0,
         0,
+        3,
         0,
+        3,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        7,
+        30,
+        43,
+        30,
+        50,
+        26,
+        22,
+        44,
+        37,
+        48,
+        35,
+        33,
+        45,
+        44,
+        53
       ]
     },
     {
       "name": "Vinícius Araujo",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 54,
+      "sprintsActive": 5,
+      "avgPerSprint": 10.8,
+      "teamPct": 2.2,
       "pointsBySprint": [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Não atribuído",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        19,
+        12,
+        5,
+        9,
+        9,
         0,
         0,
         0,
@@ -511,10 +472,10 @@
     },
     {
       "name": "Elizeu Subtil",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 9,
+      "sprintsActive": 2,
+      "avgPerSprint": 4.5,
+      "teamPct": 0.4,
       "pointsBySprint": [
         0,
         0,
@@ -526,6 +487,45 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Não atribuído",
+      "totalPoints": 4,
+      "sprintsActive": 1,
+      "avgPerSprint": 4.0,
+      "teamPct": 0.2,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
         0,
         0,
         0,

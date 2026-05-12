@@ -8,8 +8,8 @@
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 3,
     "totalIssues": 65,
-    "totalPoints": 0,
-    "velocityAvg": 0
+    "totalPoints": 75,
+    "velocityAvg": 25
   },
   "sprints": [
     {
@@ -18,7 +18,7 @@
       "start": "2026-03-17",
       "end": "2026-03-28",
       "completedAt": "2026-03-30",
-      "points": 0,
+      "points": 14,
       "issues": 10,
       "growth": null
     },
@@ -28,9 +28,9 @@
       "start": "2026-03-30",
       "end": "2026-04-11",
       "completedAt": "2026-04-13",
-      "points": 0,
+      "points": 29,
       "issues": 22,
-      "growth": null
+      "growth": 107.1
     },
     {
       "id": 4,
@@ -38,58 +38,58 @@
       "start": "2026-04-14",
       "end": "2026-04-25",
       "completedAt": "2026-04-25",
-      "points": 0,
+      "points": 32,
       "issues": 33,
-      "growth": null
+      "growth": 10.3
     }
   ],
   "assignees": [
     {
-      "name": "Eduardo Moreira da Silva",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
-      "pointsBySprint": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Ana Santos",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
-      "pointsBySprint": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
       "name": "Lucas Henrique da Silva de Oliveira",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 26,
+      "sprintsActive": 3,
+      "avgPerSprint": 8.7,
+      "teamPct": 34.7,
       "pointsBySprint": [
-        0,
-        0,
-        0
+        4,
+        9,
+        13
+      ]
+    },
+    {
+      "name": "Eduardo Moreira da Silva",
+      "totalPoints": 25,
+      "sprintsActive": 3,
+      "avgPerSprint": 8.3,
+      "teamPct": 33.3,
+      "pointsBySprint": [
+        8,
+        8,
+        9
       ]
     },
     {
       "name": "Alexandre Pedrecal Campos",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 24,
+      "sprintsActive": 3,
+      "avgPerSprint": 8.0,
+      "teamPct": 32.0,
       "pointsBySprint": [
-        0,
-        0,
-        0
+        5,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Ana Santos",
+      "totalPoints": 9,
+      "sprintsActive": 3,
+      "avgPerSprint": 3.0,
+      "teamPct": 12.0,
+      "pointsBySprint": [
+        2,
+        4,
+        3
       ]
     }
   ],

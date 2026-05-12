@@ -8,8 +8,8 @@
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 2,
     "totalIssues": 22,
-    "totalPoints": 0,
-    "velocityAvg": 0
+    "totalPoints": 62,
+    "velocityAvg": 31
   },
   "sprints": [
     {
@@ -18,7 +18,7 @@
       "start": "2026-04-14",
       "end": "2026-04-28",
       "completedAt": "2026-04-28",
-      "points": 0,
+      "points": 30,
       "issues": 12,
       "growth": null
     },
@@ -28,54 +28,54 @@
       "start": "2026-04-28",
       "end": "2026-05-08",
       "completedAt": "2026-05-11",
-      "points": 0,
+      "points": 32,
       "issues": 10,
-      "growth": null
+      "growth": 6.7
     }
   ],
   "assignees": [
     {
       "name": "Matheus Kroska",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 20,
+      "sprintsActive": 2,
+      "avgPerSprint": 10.0,
+      "teamPct": 32.3,
       "pointsBySprint": [
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Matheus Monteiro da Luz",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
-      "pointsBySprint": [
-        0,
-        0
+        11,
+        9
       ]
     },
     {
       "name": "gustavo.silva",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 18,
+      "sprintsActive": 2,
+      "avgPerSprint": 9.0,
+      "teamPct": 29.0,
       "pointsBySprint": [
-        0,
-        0
+        8,
+        10
       ]
     },
     {
       "name": "Kayque Moreira",
-      "totalPoints": 0,
-      "sprintsActive": 0,
-      "avgPerSprint": 0,
-      "teamPct": 0.0,
+      "totalPoints": 15,
+      "sprintsActive": 2,
+      "avgPerSprint": 7.5,
+      "teamPct": 24.2,
       "pointsBySprint": [
-        0,
-        0
+        10,
+        5
+      ]
+    },
+    {
+      "name": "Matheus Monteiro da Luz",
+      "totalPoints": 11,
+      "sprintsActive": 2,
+      "avgPerSprint": 5.5,
+      "teamPct": 17.7,
+      "pointsBySprint": [
+        3,
+        8
       ]
     }
   ],
