@@ -2,9 +2,12 @@
 """
 Gera arquivos data/{SQUAD}-data.json a partir do Jira.
 
-Regra principal:
-- Usar apenas issues concluídas (statusCategory == "done"), equivalente à coluna
-  "Concluído" do relatório de velocity do Jira.
+Estratégia de coleta de pontos (em ordem de prioridade):
+1. Greenhopper Velocity Chart API — retorna pontos exatos da coluna "Concluído"
+2. Sprint Report API — pontos completados por sprint
+3. Fallback: soma story_points das issues Done via Agile API
+
+Regra: usar apenas issues concluídas (statusCategory == "done").
 """
 
 from __future__ import annotations
@@ -26,6 +29,14 @@ from requests.auth import HTTPBasicAuth
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "squads.json"
 DATA_DIR = ROOT / "data"
+
+CANDIDATE_FIELDS = [
+    "customfield_10016",
+    "story_points",
+    "customfield_10028",
+    "customfield_10034",
+    "customfield_10024",
+]
 
 
 @dataclass
@@ -78,9 +89,11 @@ def jira_get(
     base_url: str,
     endpoint: str,
     params: dict[str, Any] | None = None,
-) -> dict[str, Any]:
+) -> dict[str, Any] | None:
     url = f"{base_url}{endpoint}"
-    resp = session.get(url, params=params, timeout=45)
+    resp = session.get(url, params=params, timeout=60)
+    if resp.status_code == 404:
+        return None
     resp.raise_for_status()
     return resp.json()
 
@@ -103,6 +116,23 @@ def growth(current: int, previous: int | None) -> float | None:
     return round(((current - previous) / previous) * 100, 1)
 
 
+def detect_points_field(
+    session: requests.Session,
+    site_url: str,
+    board_id: int,
+) -> str:
+    """Consulta a configuração do board para descobrir o campo de estimativa."""
+    config = jira_get(session, site_url, f"/rest/agile/1.0/board/{board_id}/configuration")
+    if config:
+        est = config.get("estimation", {})
+        field = est.get("field", {})
+        field_id = field.get("fieldId", "")
+        if field_id:
+            print(f"  [BOARD-CONFIG] Campo de estimativa: {field_id} ({field.get('displayName', '')})")
+            return field_id
+    return "customfield_10016"
+
+
 def list_closed_sprints(
     session: requests.Session,
     site_url: str,
@@ -117,6 +147,8 @@ def list_closed_sprints(
             f"/rest/agile/1.0/board/{board_id}/sprint",
             params={"state": "closed", "startAt": start_at, "maxResults": 50},
         )
+        if not payload:
+            break
         chunk = payload.get("values", [])
         sprints.extend(chunk)
         if payload.get("isLast", True):
@@ -125,13 +157,77 @@ def list_closed_sprints(
     return sprints
 
 
+def get_velocity_chart(
+    session: requests.Session,
+    site_url: str,
+    board_id: int,
+) -> dict[int, dict[str, int]] | None:
+    """
+    Tenta obter dados do Greenhopper Velocity Chart.
+    Retorna {sprint_id: {"completed": pts, "committed": pts}} ou None.
+    """
+    payload = jira_get(
+        session,
+        site_url,
+        "/rest/greenhopper/1.0/rapid/charts/velocity",
+        params={"rapidViewId": board_id},
+    )
+    if not payload:
+        return None
+
+    result: dict[int, dict[str, int]] = {}
+    completed = payload.get("velocityStatEntries", {})
+    for sprint_id_str, entry in completed.items():
+        sid = int(sprint_id_str)
+        comp = entry.get("completed", {})
+        comm = entry.get("estimated", {})
+        result[sid] = {
+            "completed": int(round(comp.get("value", 0))),
+            "committed": int(round(comm.get("value", 0))),
+        }
+    if result:
+        print(f"  [VELOCITY-CHART] Obtidos dados de {len(result)} sprints via Greenhopper")
+    return result if result else None
+
+
+def get_sprint_report_points(
+    session: requests.Session,
+    site_url: str,
+    board_id: int,
+    sprint_id: int,
+) -> int | None:
+    """
+    Tenta obter pontos completados via Sprint Report (Greenhopper).
+    """
+    payload = jira_get(
+        session,
+        site_url,
+        "/rest/greenhopper/1.0/rapid/charts/sprintreport",
+        params={"rapidViewId": board_id, "sprintId": sprint_id},
+    )
+    if not payload:
+        return None
+
+    contents = payload.get("contents", {})
+    completed_issues = contents.get("completedIssues", [])
+    total = 0
+    for issue in completed_issues:
+        est = issue.get("estimateStatistic", {})
+        stat_value = est.get("statFieldValue", {})
+        value = stat_value.get("value")
+        if value is not None:
+            total += int(round(float(value)))
+    return total if total > 0 else None
+
+
 def list_sprint_issues(
     session: requests.Session,
     site_url: str,
     sprint_id: int,
     points_field: str,
 ) -> list[dict[str, Any]]:
-    fields = f"assignee,issuetype,status,{points_field},customfield_10016"
+    fields_list = list(set(["assignee", "issuetype", "status", points_field] + CANDIDATE_FIELDS))
+    fields = ",".join(fields_list)
     issues: list[dict[str, Any]] = []
     start_at = 0
     while True:
@@ -141,6 +237,8 @@ def list_sprint_issues(
             f"/rest/agile/1.0/sprint/{sprint_id}/issue",
             params={"startAt": start_at, "maxResults": 100, "fields": fields},
         )
+        if not payload:
+            break
         chunk = payload.get("issues", [])
         issues.extend(chunk)
         start_at += payload.get("maxResults", 100)
@@ -152,7 +250,10 @@ def list_sprint_issues(
 def get_points(fields: dict[str, Any], points_field: str) -> float:
     value = fields.get(points_field)
     if value is None:
-        value = fields.get("customfield_10016")
+        for candidate in CANDIDATE_FIELDS:
+            value = fields.get(candidate)
+            if value is not None:
+                break
     try:
         return float(value or 0)
     except (TypeError, ValueError):
@@ -169,9 +270,11 @@ def build_squad_dataset(
     session: requests.Session,
     site_url: str,
     squad: Squad,
-    points_field: str,
+    points_field_override: str | None,
     max_sprints: int,
 ) -> dict[str, Any]:
+    points_field = points_field_override or detect_points_field(session, site_url, squad.board_id)
+
     sprints = list_closed_sprints(session, site_url, squad.board_id)
     sprints = sorted(
         sprints,
@@ -183,6 +286,8 @@ def build_squad_dataset(
     if max_sprints > 0:
         sprints = sprints[-max_sprints:]
 
+    velocity_data = get_velocity_chart(session, site_url, squad.board_id)
+
     sprint_rows: list[dict[str, Any]] = []
     assignee_points_by_sprint: dict[str, list[int]] = defaultdict(list)
     issue_type_counts: dict[str, int] = defaultdict(int)
@@ -190,6 +295,7 @@ def build_squad_dataset(
     previous_points: int | None = None
     total_done_issues = 0
     total_points = 0
+    used_velocity_chart = False
 
     for sprint_idx, sprint in enumerate(sprints):
         sprint_id = sprint["id"]
@@ -201,24 +307,61 @@ def build_squad_dataset(
             if is_done(fields):
                 done_issues.append(issue)
 
-        sprint_points = 0
+        # --- Determine sprint points using best available source ---
+        sprint_points_from_fields = 0
+        for issue in done_issues:
+            fields = issue.get("fields", {})
+            sprint_points_from_fields += int(round(get_points(fields, points_field)))
+
+        sprint_points = sprint_points_from_fields
+
+        if velocity_data and sprint_id in velocity_data:
+            vc_pts = velocity_data[sprint_id]["completed"]
+            if vc_pts > 0:
+                sprint_points = vc_pts
+                used_velocity_chart = True
+        elif sprint_points == 0:
+            report_pts = get_sprint_report_points(session, site_url, squad.board_id, sprint_id)
+            if report_pts and report_pts > 0:
+                sprint_points = report_pts
+                used_velocity_chart = True
+
+        # --- Distribute points per assignee proportionally ---
+        assignee_raw: dict[str, int] = defaultdict(int)
         for issue in done_issues:
             fields = issue.get("fields", {})
             pts = int(round(get_points(fields, points_field)))
-            sprint_points += pts
-
             assignee = fields.get("assignee")
             assignee_name = (
                 assignee.get("displayName")
                 if assignee and assignee.get("displayName")
                 else "Não atribuído"
             )
-            while len(assignee_points_by_sprint[assignee_name]) <= sprint_idx:
-                assignee_points_by_sprint[assignee_name].append(0)
-            assignee_points_by_sprint[assignee_name][sprint_idx] += pts
+            if pts > 0:
+                assignee_raw[assignee_name] += pts
+            else:
+                assignee_raw[assignee_name] += 0
 
             issue_type = (fields.get("issuetype") or {}).get("name", "Sem tipo")
             issue_type_counts[issue_type] += 1
+
+        raw_total = sum(assignee_raw.values())
+        if sprint_points > 0 and raw_total == 0 and done_issues:
+            per_issue = sprint_points / len(done_issues)
+            for issue in done_issues:
+                fields = issue.get("fields", {})
+                assignee = fields.get("assignee")
+                aname = (
+                    assignee.get("displayName")
+                    if assignee and assignee.get("displayName")
+                    else "Não atribuído"
+                )
+                assignee_raw[aname] += int(round(per_issue))
+
+        for assignee_name in list(assignee_raw.keys()):
+            while len(assignee_points_by_sprint[assignee_name]) < sprint_idx:
+                assignee_points_by_sprint[assignee_name].append(0)
+            assignee_points_by_sprint[assignee_name].append(assignee_raw[assignee_name])
 
         for assignee_name in list(assignee_points_by_sprint.keys()):
             while len(assignee_points_by_sprint[assignee_name]) <= sprint_idx:
@@ -241,6 +384,9 @@ def build_squad_dataset(
             }
         )
         previous_points = sprint_points
+
+    if used_velocity_chart:
+        print(f"  [INFO] Pontos obtidos via Velocity Chart / Sprint Report do Jira")
 
     assignees = []
     for assignee_name, arr in assignee_points_by_sprint.items():
@@ -300,7 +446,7 @@ def main() -> int:
     jira_site = load_env("JIRA_SITE_URL")
     jira_email = load_env("JIRA_EMAIL")
     jira_token = load_env("JIRA_API_TOKEN")
-    points_field = os.getenv("JIRA_STORY_POINTS_FIELD", "customfield_10016").strip()
+    points_field_override = os.getenv("JIRA_STORY_POINTS_FIELD", "").strip() or None
     squads = load_squads()
 
     if args.squad:
@@ -320,12 +466,12 @@ def main() -> int:
             session=session,
             site_url=jira_site.rstrip("/"),
             squad=squad,
-            points_field=points_field,
+            points_field_override=points_field_override,
             max_sprints=args.max_sprints,
         )
         output_path = write_dataset(squad.key, payload)
         generated.append(output_path.name)
-        print(f"[OK] {output_path}")
+        print(f"[OK] {output_path} — {payload['meta']['totalPoints']} pts / {payload['meta']['totalIssues']} issues")
 
     print(f"[DONE] Arquivos gerados: {', '.join(generated)}")
     return 0

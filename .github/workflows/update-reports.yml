@@ -37,7 +37,6 @@ jobs:
           JIRA_SITE_URL: ${{ secrets.JIRA_SITE_URL }}
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
-          JIRA_STORY_POINTS_FIELD: customfield_10016
         run: |
           set -e
           SQUAD="${{ github.event.inputs.squad }}"
