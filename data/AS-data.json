@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "squadKey": "AS",
+    "squadName": "After Sales",
+    "boardId": 590,
+    "projectKey": "AS",
+    "generatedAt": "2026-05-12",
+    "sourceMetric": "Concluído (statusCategory = done)",
+    "totalSprints": 17,
+    "totalIssues": 344,
+    "totalPoints": 109,
+    "velocityAvg": 6
+  },
+  "sprints": [
+    {
+      "id": 1,
+      "name": "Sprint 1",
+      "start": "2025-07-30",
+      "end": "2025-08-07",
+      "completedAt": "2025-08-08",
+      "points": 0,
+      "issues": 11,
+      "growth": null
+    },
+    {
+      "id": 2,
+      "name": "Sprint 2",
+      "start": "2025-08-13",
+      "end": "2025-08-21",
+      "completedAt": "2025-08-22",
+      "points": 0,
+      "issues": 10,
+      "growth": null
+    },
+    {
+      "id": 3,
+      "name": "Sprint 3",
+      "start": "2025-08-27",
+      "end": "2025-09-04",
+      "completedAt": "2025-09-08",
+      "points": 0,
+      "issues": 9,
+      "growth": null
+    },
+    {
+      "id": 4,
+      "name": "Sprint 4",
+      "start": "2025-09-09",
+      "end": "2025-09-18",
+      "completedAt": "2025-09-22",
+      "points": 0,
+      "issues": 11,
+      "growth": null
+    },
+    {
+      "id": 5,
+      "name": "Sprint 5",
+      "start": "2025-09-24",
+      "end": "2025-10-02",
+      "completedAt": "2025-10-03",
+      "points": 0,
+      "issues": 14,
+      "growth": null
+    },
+    {
+      "id": 6,
+      "name": "Sprint 6",
+      "start": "2025-10-07",
+      "end": "2025-10-16",
+      "completedAt": "2025-10-17",
+      "points": 0,
+      "issues": 18,
+      "growth": null
+    },
+    {
+      "id": 7,
+      "name": "Sprint 7",
+      "start": "2025-10-21",
+      "end": "2025-10-30",
+      "completedAt": "2025-10-31",
+      "points": 0,
+      "issues": 17,
+      "growth": null
+    },
+    {
+      "id": 8,
+      "name": "Sprint 8",
+      "start": "2025-11-04",
+      "end": "2025-11-13",
+      "completedAt": "2025-11-17",
+      "points": 0,
+      "issues": 19,
+      "growth": null
+    },
+    {
+      "id": 9,
+      "name": "Sprint 9",
+      "start": "2025-12-09",
+      "end": "2025-12-18",
+      "completedAt": "2025-12-22",
+      "points": 0,
+      "issues": 24,
+      "growth": null
+    },
+    {
+      "id": 10,
+      "name": "Sprint 10",
+      "start": "2025-12-22",
+      "end": "2026-01-15",
+      "completedAt": "2026-01-16",
+      "points": 0,
+      "issues": 23,
+      "growth": null
+    },
+    {
+      "id": 11,
+      "name": "Sprint 11",
+      "start": "2026-01-21",
+      "end": "2026-01-29",
+      "completedAt": "2026-02-02",
+      "points": 0,
+      "issues": 18,
+      "growth": null
+    },
+    {
+      "id": 12,
+      "name": "Sprint 12",
+      "start": "2026-02-09",
+      "end": "2026-02-19",
+      "completedAt": "2026-02-20",
+      "points": 0,
+      "issues": 17,
+      "growth": null
+    },
+    {
+      "id": 13,
+      "name": "Sprint 13",
+      "start": "2026-02-24",
+      "end": "2026-03-05",
+      "completedAt": "2026-03-09",
+      "points": 0,
+      "issues": 28,
+      "growth": null
+    },
+    {
+      "id": 14,
+      "name": "Sprint 14",
+      "start": "2026-03-10",
+      "end": "2026-03-19",
+      "completedAt": "2026-03-19",
+      "points": 0,
+      "issues": 29,
+      "growth": null
+    },
+    {
+      "id": 15,
+      "name": "Sprint 15",
+      "start": "2026-03-24",
+      "end": "2026-04-02",
+      "completedAt": "2026-04-06",
+      "points": 81,
+      "issues": 33,
+      "growth": null
+    },
+    {
+      "id": 16,
+      "name": "Sprint 16",
+      "start": "2026-04-07",
+      "end": "2026-04-16",
+      "completedAt": "2026-04-17",
+      "points": 28,
+      "issues": 36,
+      "growth": -65.4
+    },
+    {
+      "id": 17,
+      "name": "Sprint 17",
+      "start": "2026-04-22",
+      "end": "2026-04-29",
+      "completedAt": "2026-04-29",
+      "points": 0,
+      "issues": 27,
+      "growth": -100.0
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Yuri de Paula Oliveira",
+      "totalPoints": 67,
+      "sprintsActive": 2,
+      "avgPerSprint": 33.5,
+      "teamPct": 61.5,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        49,
+        18,
+        0
+      ]
+    },
+    {
+      "name": "Marlon Carvalho",
+      "totalPoints": 37,
+      "sprintsActive": 2,
+      "avgPerSprint": 18.5,
+      "teamPct": 33.9,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        8,
+        0
+      ]
+    },
+    {
+      "name": "Gabriel Mazzardo",
+      "totalPoints": 3,
+      "sprintsActive": 1,
+      "avgPerSprint": 3.0,
+      "teamPct": 2.8,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "jorge.cunha",
+      "totalPoints": 2,
+      "sprintsActive": 1,
+      "avgPerSprint": 2.0,
+      "teamPct": 1.8,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "Não atribuído",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Tiago Soares de Gois",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hugo.costa",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "issueTypes": [
+    {
+      "label": "Tarefa",
+      "count": 271
+    },
+    {
+      "label": "Subtarefa",
+      "count": 34
+    },
+    {
+      "label": "Bug",
+      "count": 23
+    },
+    {
+      "label": "Spike",
+      "count": 12
+    },
+    {
+      "label": "Épico",
+      "count": 4
+    }
+  ]
+}

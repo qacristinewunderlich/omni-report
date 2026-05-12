@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "squadKey": "JNDS",
+    "squadName": "Jornadas",
+    "boardId": 889,
+    "projectKey": "JNDS",
+    "generatedAt": "2026-05-12",
+    "sourceMetric": "Concluído (statusCategory = done)",
+    "totalSprints": 2,
+    "totalIssues": 22,
+    "totalPoints": 0,
+    "velocityAvg": 0
+  },
+  "sprints": [
+    {
+      "id": 1,
+      "name": "quadro Sprint 1",
+      "start": "2026-04-14",
+      "end": "2026-04-28",
+      "completedAt": "2026-04-28",
+      "points": 0,
+      "issues": 12,
+      "growth": null
+    },
+    {
+      "id": 2,
+      "name": "quadro Sprint 2",
+      "start": "2026-04-28",
+      "end": "2026-05-08",
+      "completedAt": "2026-05-11",
+      "points": 0,
+      "issues": 10,
+      "growth": null
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Matheus Kroska",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Matheus Monteiro da Luz",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "gustavo.silva",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Kayque Moreira",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0
+      ]
+    }
+  ],
+  "issueTypes": [
+    {
+      "label": "Tarefa",
+      "count": 20
+    },
+    {
+      "label": "Bug",
+      "count": 1
+    },
+    {
+      "label": "História",
+      "count": 1
+    }
+  ]
+}

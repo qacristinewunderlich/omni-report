@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "squadKey": "IC",
+    "squadName": "CRM",
+    "boardId": 955,
+    "projectKey": "IC",
+    "generatedAt": "2026-05-12",
+    "sourceMetric": "Concluído (statusCategory = done)",
+    "totalSprints": 3,
+    "totalIssues": 65,
+    "totalPoints": 0,
+    "velocityAvg": 0
+  },
+  "sprints": [
+    {
+      "id": 2,
+      "name": "IC Sprint 2",
+      "start": "2026-03-17",
+      "end": "2026-03-28",
+      "completedAt": "2026-03-30",
+      "points": 0,
+      "issues": 10,
+      "growth": null
+    },
+    {
+      "id": 3,
+      "name": "IC Sprint 3",
+      "start": "2026-03-30",
+      "end": "2026-04-11",
+      "completedAt": "2026-04-13",
+      "points": 0,
+      "issues": 22,
+      "growth": null
+    },
+    {
+      "id": 4,
+      "name": "IC Sprint 4",
+      "start": "2026-04-14",
+      "end": "2026-04-25",
+      "completedAt": "2026-04-25",
+      "points": 0,
+      "issues": 33,
+      "growth": null
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Eduardo Moreira da Silva",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Ana Santos",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Lucas Henrique da Silva de Oliveira",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Alexandre Pedrecal Campos",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "issueTypes": [
+    {
+      "label": "Tarefa",
+      "count": 53
+    },
+    {
+      "label": "Bug",
+      "count": 8
+    },
+    {
+      "label": "Spike",
+      "count": 2
+    },
+    {
+      "label": "História",
+      "count": 2
+    }
+  ]
+}
