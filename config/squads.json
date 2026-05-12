@@ -1,0 +1,15 @@
+[
+  { "key": "AS", "name": "After Sales", "boardId": 590, "projectKey": "AS" },
+  { "key": "BO", "name": "CloudOps", "boardId": 133, "projectKey": "BO" },
+  { "key": "CP", "name": "Copilot", "boardId": 216, "projectKey": "CP" },
+  { "key": "ECI", "name": "Outbound", "boardId": 162, "projectKey": "ECI" },
+  { "key": "IC", "name": "CRM", "boardId": 955, "projectKey": "IC" },
+  { "key": "JNDS", "name": "Jornadas", "boardId": 889, "projectKey": "JNDS" },
+  { "key": "LEAD", "name": "Inbound", "boardId": 156, "projectKey": "LEAD" },
+  { "key": "MAN", "name": "Manager", "boardId": 225, "projectKey": "MAN" },
+  { "key": "SAL", "name": "Sales", "boardId": 220, "projectKey": "SAL" },
+  { "key": "SC", "name": "Commerce", "boardId": 152, "projectKey": "SC" },
+  { "key": "SD", "name": "Dados", "boardId": 260, "projectKey": "SD" },
+  { "key": "WC", "name": "Whizz Core", "boardId": 219, "projectKey": "WC" },
+  { "key": "WR", "name": "Whizz Service", "boardId": 218, "projectKey": "WR" }
+]

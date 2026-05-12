@@ -1,0 +1,65 @@
+name: Atualizar Relatorios Jira
+
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+    inputs:
+      squad:
+        description: "Key da squad (ex: SAL). Vazio = todas"
+        required: false
+        default: ""
+      max_sprints:
+        description: "Quantidade maxima de sprints por squad"
+        required: false
+        default: "30"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Gerar arquivos JSON
+        env:
+          JIRA_SITE_URL: ${{ secrets.JIRA_SITE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_STORY_POINTS_FIELD: customfield_10016
+        run: |
+          set -e
+          SQUAD="${{ github.event.inputs.squad }}"
+          MAX_SPRINTS="${{ github.event.inputs.max_sprints }}"
+          if [ -z "$MAX_SPRINTS" ]; then
+            MAX_SPRINTS="30"
+          fi
+
+          if [ -n "$SQUAD" ]; then
+            python scripts/fetch-jira-data.py --squad "$SQUAD" --max-sprints "$MAX_SPRINTS"
+          else
+            python scripts/fetch-jira-data.py --max-sprints "$MAX_SPRINTS"
+          fi
+
+      - name: Commit se houve alteracoes
+        run: |
+          if git diff --quiet; then
+            echo "Sem alteracoes em data/*.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "chore(data): atualizar relatorios de velocity"
+          git push
