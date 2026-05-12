@@ -126,6 +126,14 @@
   <div class="filters">
     <label for="squadSelect">Squad</label>
     <select id="squadSelect"><option>Carregando...</option></select>
+    <span style="width:1px;height:24px;background:var(--border);margin:0 4px"></span>
+    <label for="periodoSelect">Período</label>
+    <select id="periodoSelect">
+      <option value="1">Atual (última sprint)</option>
+      <option value="6">Últimas 6 sprints</option>
+      <option value="12">Últimas 12 sprints</option>
+      <option value="0" selected>Todas</option>
+    </select>
   </div>
 
   <div id="loading"><div class="spinner"></div><br>Carregando dados da squad...</div>
@@ -137,6 +145,32 @@
 <script>
 const PALETTE = ["#2E75B6","#70AD47","#ED7D31","#A5A5A5","#FFC000","#4472C4","#FF0000","#B4C6E7","#E2EFDA","#FFE699","#9966FF","#FF6699","#33CCCC","#CC9900","#8B5CF6"];
 let charts = [];
+let fullData = null;
+
+function filterData(data, windowSize) {
+  if (!windowSize || windowSize <= 0 || windowSize >= data.sprints.length) return data;
+  const n = windowSize;
+  const sprints = data.sprints.slice(-n);
+  const offset = data.sprints.length - n;
+  const assignees = data.assignees.map(a => {
+    const sliced = a.pointsBySprint.slice(offset);
+    const total = sliced.reduce((s, v) => s + v, 0);
+    const active = sliced.filter(v => v > 0).length;
+    return { ...a, pointsBySprint: sliced, totalPoints: total, sprintsActive: active,
+      avgPerSprint: active ? Math.round(total / active * 10) / 10 : 0 };
+  }).filter(a => a.totalPoints > 0 || a.pointsBySprint.some(v => v > 0));
+  assignees.sort((a, b) => b.totalPoints - a.totalPoints);
+  const totalPts = sprints.reduce((s, sp) => s + sp.points, 0);
+  assignees.forEach(a => { a.teamPct = totalPts ? Math.round(a.totalPoints / totalPts * 1000) / 10 : 0; });
+  const totalIssues = sprints.reduce((s, sp) => s + sp.issues, 0);
+  return {
+    ...data,
+    sprints,
+    assignees,
+    meta: { ...data.meta, totalSprints: sprints.length, totalPoints: totalPts, totalIssues,
+      velocityAvg: sprints.length ? Math.round(totalPts / sprints.length) : 0 }
+  };
+}
 
 function destroyCharts() { charts.forEach(c => c.destroy()); charts = []; }
 
@@ -314,17 +348,16 @@ function render(data) {
   Chart.defaults.font = defaultFont;
   Chart.defaults.color = '#595959';
 
-  // 1. Velocity bar + line
+  // 1. Velocity bar
   charts.push(new Chart(document.getElementById('chartVelocity'), {
     type: 'bar',
     data: {
       labels: sprintLabels,
       datasets: [
-        { label: 'Pontos Entregues', data: velocityData, backgroundColor: 'rgba(46,117,182,0.75)', borderColor: '#1F4E79', borderWidth: 1, order: 2 },
-        { label: 'Velocity (Linha)', data: velocityData, type: 'line', borderColor: '#ED7D31', backgroundColor: 'transparent', tension: 0.35, pointRadius: 4, pointBackgroundColor: '#ED7D31', borderWidth: 2, order: 1 }
+        { label: 'Pontos Entregues', data: velocityData, backgroundColor: 'rgba(46,117,182,0.75)', borderColor: '#1F4E79', borderWidth: 1 }
       ]
     },
-    options: { responsive: true, plugins: { legend: { position: 'top' }, tooltip: { mode: 'index', intersect: false } }, scales: { x: { grid: { display: false }, ticks: { maxRotation: 45 } }, y: { beginAtZero: true, title: { display: true, text: 'Story Points' } } } }
+    options: { responsive: true, plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } }, scales: { x: { grid: { display: false }, ticks: { maxRotation: 45 } }, y: { beginAtZero: true, title: { display: true, text: 'Story Points' } } } }
   }));
 
   // 2. Growth %
@@ -410,16 +443,30 @@ function showError(msg) {
   document.getElementById('report').style.display = 'none';
 }
 
+function getWindowSize() {
+  return parseInt(document.getElementById('periodoSelect').value, 10);
+}
+
+function renderFiltered() {
+  if (!fullData) return;
+  const filtered = filterData(fullData, getWindowSize());
+  render(filtered);
+  const url = new URL(window.location.href);
+  url.searchParams.set('periodo', getWindowSize());
+  history.replaceState(null, '', url);
+}
+
 async function loadSquadData(key) {
   showLoading(`Carregando dados da squad <strong>${key}</strong>...`);
   try {
     const resp = await fetch(`./data/${key}-data.json`);
     if (!resp.ok) throw new Error(`Arquivo <code>data/${key}-data.json</code> não encontrado.<br><br>Execute o script de coleta para gerar os dados:<br><code>python scripts/fetch-jira-data.py --squad ${key}</code>`);
-    const data = await resp.json();
+    fullData = await resp.json();
     document.getElementById('loading').style.display = 'none';
-    render(data);
+    renderFiltered();
     const url = new URL(window.location.href);
     url.searchParams.set('squad', key);
+    url.searchParams.set('periodo', getWindowSize());
     history.replaceState(null, '', url);
   } catch (err) {
     showError(err.message);
@@ -435,8 +482,15 @@ async function init() {
     select.innerHTML = squads.map(s => `<option value="${s.key}">${s.name} (${s.key})</option>`).join('');
 
     select.addEventListener('change', () => loadSquadData(select.value));
+    document.getElementById('periodoSelect').addEventListener('change', renderFiltered);
 
     const url = new URL(window.location.href);
+    const periodoParam = url.searchParams.get('periodo');
+    if (periodoParam) {
+      const periodoSelect = document.getElementById('periodoSelect');
+      const validOpts = [...periodoSelect.options].map(o => o.value);
+      if (validOpts.includes(periodoParam)) periodoSelect.value = periodoParam;
+    }
     const requested = url.searchParams.get('squad');
     const exists = squads.some(s => s.key === requested);
     const initial = exists ? requested : squads[0]?.key;
