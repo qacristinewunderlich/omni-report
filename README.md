@@ -101,3 +101,4 @@ Adicionar um item em `config/squads.json`:
 ```
 
 Sem outras mudanças: script e front já passam a considerar automaticamente.
+
