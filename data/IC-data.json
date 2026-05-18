@@ -4,12 +4,12 @@
     "squadName": "CRM",
     "boardId": 955,
     "projectKey": "IC",
-    "generatedAt": "2026-05-12",
+    "generatedAt": "2026-05-18",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 3,
-    "totalIssues": 65,
-    "totalPoints": 75,
-    "velocityAvg": 25
+    "totalSprints": 4,
+    "totalIssues": 80,
+    "totalPoints": 105,
+    "velocityAvg": 26
   },
   "sprints": [
     {
@@ -41,66 +41,80 @@
       "points": 32,
       "issues": 33,
       "growth": 10.3
+    },
+    {
+      "id": 5,
+      "name": "IC Sprint 5",
+      "start": "2026-04-27",
+      "end": "2026-05-08",
+      "completedAt": "2026-05-12",
+      "points": 30,
+      "issues": 15,
+      "growth": -6.2
     }
   ],
   "assignees": [
     {
-      "name": "Lucas Henrique da Silva de Oliveira",
-      "totalPoints": 26,
-      "sprintsActive": 3,
-      "avgPerSprint": 8.7,
-      "teamPct": 34.7,
-      "pointsBySprint": [
-        4,
-        9,
-        13
-      ]
-    },
-    {
       "name": "Eduardo Moreira da Silva",
-      "totalPoints": 25,
-      "sprintsActive": 3,
-      "avgPerSprint": 8.3,
-      "teamPct": 33.3,
+      "totalPoints": 37,
+      "sprintsActive": 4,
+      "avgPerSprint": 9.2,
+      "teamPct": 35.2,
       "pointsBySprint": [
         8,
         8,
-        9
+        9,
+        12
       ]
     },
     {
       "name": "Alexandre Pedrecal Campos",
-      "totalPoints": 24,
-      "sprintsActive": 3,
-      "avgPerSprint": 8.0,
-      "teamPct": 32.0,
+      "totalPoints": 31,
+      "sprintsActive": 4,
+      "avgPerSprint": 7.8,
+      "teamPct": 29.5,
       "pointsBySprint": [
         5,
         9,
-        10
+        10,
+        7
+      ]
+    },
+    {
+      "name": "Lucas Henrique da Silva de Oliveira",
+      "totalPoints": 30,
+      "sprintsActive": 4,
+      "avgPerSprint": 7.5,
+      "teamPct": 28.6,
+      "pointsBySprint": [
+        4,
+        9,
+        13,
+        4
       ]
     },
     {
       "name": "Ana Santos",
-      "totalPoints": 9,
-      "sprintsActive": 3,
-      "avgPerSprint": 3.0,
-      "teamPct": 12.0,
+      "totalPoints": 18,
+      "sprintsActive": 4,
+      "avgPerSprint": 4.5,
+      "teamPct": 17.1,
       "pointsBySprint": [
         2,
         4,
-        3
+        3,
+        9
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 53
+      "count": 65
     },
     {
       "label": "Bug",
-      "count": 8
+      "count": 11
     },
     {
       "label": "Spike",

@@ -4,12 +4,12 @@
     "squadName": "After Sales",
     "boardId": 590,
     "projectKey": "AS",
-    "generatedAt": "2026-05-12",
+    "generatedAt": "2026-05-18",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 17,
-    "totalIssues": 344,
-    "totalPoints": 893,
-    "velocityAvg": 53
+    "totalSprints": 18,
+    "totalIssues": 381,
+    "totalPoints": 981,
+    "velocityAvg": 54
   },
   "sprints": [
     {
@@ -68,9 +68,9 @@
       "start": "2025-10-07",
       "end": "2025-10-16",
       "completedAt": "2025-10-17",
-      "points": 53,
+      "points": 63,
       "issues": 18,
-      "growth": 8.2
+      "growth": 28.6
     },
     {
       "id": 7,
@@ -80,7 +80,7 @@
       "completedAt": "2025-10-31",
       "points": 44,
       "issues": 17,
-      "growth": -17.0
+      "growth": -30.2
     },
     {
       "id": 8,
@@ -181,15 +181,25 @@
       "points": 59,
       "issues": 27,
       "growth": -20.3
+    },
+    {
+      "id": 18,
+      "name": "Sprint 18",
+      "start": "2026-05-05",
+      "end": "2026-05-14",
+      "completedAt": "2026-05-14",
+      "points": 78,
+      "issues": 37,
+      "growth": 32.2
     }
   ],
   "assignees": [
     {
       "name": "Yuri de Paula Oliveira",
-      "totalPoints": 419,
-      "sprintsActive": 17,
-      "avgPerSprint": 24.6,
-      "teamPct": 46.9,
+      "totalPoints": 465,
+      "sprintsActive": 18,
+      "avgPerSprint": 25.8,
+      "teamPct": 47.4,
       "pointsBySprint": [
         21,
         17,
@@ -207,7 +217,8 @@
         17,
         48,
         27,
-        23
+        23,
+        46
       ]
     },
     {
@@ -215,7 +226,7 @@
       "totalPoints": 250,
       "sprintsActive": 12,
       "avgPerSprint": 20.8,
-      "teamPct": 28.0,
+      "teamPct": 25.5,
       "pointsBySprint": [
         0,
         0,
@@ -233,15 +244,16 @@
         23,
         24,
         26,
+        0,
         0
       ]
     },
     {
       "name": "Gabriel Mazzardo",
-      "totalPoints": 208,
-      "sprintsActive": 16,
-      "avgPerSprint": 13.0,
-      "teamPct": 23.3,
+      "totalPoints": 212,
+      "sprintsActive": 17,
+      "avgPerSprint": 12.5,
+      "teamPct": 21.6,
       "pointsBySprint": [
         10,
         14,
@@ -259,41 +271,16 @@
         14,
         6,
         6,
-        15
-      ]
-    },
-    {
-      "name": "hugo.costa",
-      "totalPoints": 44,
-      "sprintsActive": 9,
-      "avgPerSprint": 4.9,
-      "teamPct": 4.9,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        5,
-        5,
-        3,
-        2,
-        10,
-        1,
-        0,
-        6,
-        9
+        15,
+        4
       ]
     },
     {
       "name": "jorge.cunha",
-      "totalPoints": 30,
-      "sprintsActive": 2,
-      "avgPerSprint": 15.0,
-      "teamPct": 3.4,
+      "totalPoints": 52,
+      "sprintsActive": 3,
+      "avgPerSprint": 17.3,
+      "teamPct": 5.3,
       "pointsBySprint": [
         0,
         0,
@@ -311,7 +298,35 @@
         0,
         0,
         11,
-        19
+        19,
+        22
+      ]
+    },
+    {
+      "name": "hugo.costa",
+      "totalPoints": 50,
+      "sprintsActive": 10,
+      "avgPerSprint": 5.0,
+      "teamPct": 5.1,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        5,
+        5,
+        3,
+        2,
+        10,
+        1,
+        0,
+        6,
+        9,
+        6
       ]
     },
     {
@@ -319,7 +334,7 @@
       "totalPoints": 20,
       "sprintsActive": 5,
       "avgPerSprint": 4.0,
-      "teamPct": 2.2,
+      "teamPct": 2.0,
       "pointsBySprint": [
         3,
         0,
@@ -337,6 +352,7 @@
         8,
         0,
         0,
+        0,
         0
       ]
     },
@@ -345,7 +361,7 @@
       "totalPoints": 6,
       "sprintsActive": 2,
       "avgPerSprint": 3.0,
-      "teamPct": 0.7,
+      "teamPct": 0.6,
       "pointsBySprint": [
         0,
         0,
@@ -363,6 +379,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     }
@@ -370,11 +387,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 271
+      "count": 298
     },
     {
       "label": "Subtarefa",
-      "count": 34
+      "count": 44
     },
     {
       "label": "Bug",

@@ -4,10 +4,10 @@
     "squadName": "CloudOps",
     "boardId": 133,
     "projectKey": "BO",
-    "generatedAt": "2026-05-12",
+    "generatedAt": "2026-05-18",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1163,
+    "totalIssues": 1164,
     "totalPoints": 2477,
     "velocityAvg": 83
   },
@@ -309,7 +309,7 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-08",
       "points": 71,
-      "issues": 31,
+      "issues": 32,
       "growth": 16.4
     }
   ],
@@ -394,10 +394,10 @@
     },
     {
       "name": "Rodrigo Bitu de Moraes",
-      "totalPoints": 553,
+      "totalPoints": 554,
       "sprintsActive": 17,
-      "avgPerSprint": 32.5,
-      "teamPct": 22.3,
+      "avgPerSprint": 32.6,
+      "teamPct": 22.4,
       "pointsBySprint": [
         0,
         0,
@@ -428,7 +428,7 @@
         33,
         45,
         44,
-        53
+        54
       ]
     },
     {
@@ -568,7 +568,7 @@
     },
     {
       "label": "Bug",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Degradação",

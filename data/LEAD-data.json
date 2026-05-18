@@ -4,10 +4,10 @@
     "squadName": "Inbound",
     "boardId": 156,
     "projectKey": "LEAD",
-    "generatedAt": "2026-05-12",
+    "generatedAt": "2026-05-18",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1014,
+    "totalIssues": 1016,
     "totalPoints": 1505,
     "velocityAvg": 50
   },
@@ -309,16 +309,16 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-08",
       "points": 58,
-      "issues": 37,
+      "issues": 39,
       "growth": 9.4
     }
   ],
   "assignees": [
     {
       "name": "Elizeu Moreira",
-      "totalPoints": 308,
+      "totalPoints": 309,
       "sprintsActive": 29,
-      "avgPerSprint": 10.6,
+      "avgPerSprint": 10.7,
       "teamPct": 20.5,
       "pointsBySprint": [
         19,
@@ -350,7 +350,7 @@
         9,
         14,
         20,
-        14
+        15
       ]
     },
     {
@@ -511,9 +511,9 @@
     },
     {
       "name": "Carlos Alexandre Leite Vieira",
-      "totalPoints": 141,
+      "totalPoints": 142,
       "sprintsActive": 23,
-      "avgPerSprint": 6.1,
+      "avgPerSprint": 6.2,
       "teamPct": 9.4,
       "pointsBySprint": [
         0,
@@ -545,7 +545,7 @@
         3,
         0,
         0,
-        7
+        8
       ]
     },
     {
@@ -708,11 +708,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 665
+      "count": 666
     },
     {
       "label": "Spike",
-      "count": 168
+      "count": 169
     },
     {
       "label": "Melhoria",
