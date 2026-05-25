@@ -4,24 +4,14 @@
     "squadName": "Copilot",
     "boardId": 216,
     "projectKey": "CP",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1183,
-    "totalPoints": 2456,
+    "totalIssues": 1158,
+    "totalPoints": 2447,
     "velocityAvg": 82
   },
   "sprints": [
-    {
-      "id": 3,
-      "name": "Sprint 03 | Copilot",
-      "start": "2025-02-24",
-      "end": "2025-03-07",
-      "completedAt": "2025-03-10",
-      "points": 83,
-      "issues": 45,
-      "growth": null
-    },
     {
       "id": 4,
       "name": "Sprint 04 | Copilot",
@@ -30,7 +20,7 @@
       "completedAt": "2025-03-24",
       "points": 93,
       "issues": 45,
-      "growth": 12.0
+      "growth": null
     },
     {
       "id": 5,
@@ -198,9 +188,9 @@
       "start": "2025-10-20",
       "end": "2025-10-31",
       "completedAt": "2025-11-03",
-      "points": 76,
+      "points": 99,
       "issues": 41,
-      "growth": -3.8
+      "growth": 25.3
     },
     {
       "id": 21,
@@ -210,7 +200,7 @@
       "completedAt": "2025-11-17",
       "points": 34,
       "issues": 18,
-      "growth": -55.3
+      "growth": -65.7
     },
     {
       "id": 25,
@@ -311,17 +301,26 @@
       "points": 80,
       "issues": 34,
       "growth": -2.4
+    },
+    {
+      "id": 8,
+      "name": "Sprint 8 | Copilot",
+      "start": "2026-05-04",
+      "end": "2026-05-15",
+      "completedAt": "2026-05-18",
+      "points": 51,
+      "issues": 20,
+      "growth": -36.2
     }
   ],
   "assignees": [
     {
       "name": "Italo Francisco Magdalena",
-      "totalPoints": 680,
-      "sprintsActive": 25,
-      "avgPerSprint": 27.2,
-      "teamPct": 27.7,
+      "totalPoints": 660,
+      "sprintsActive": 24,
+      "avgPerSprint": 27.5,
+      "teamPct": 27.0,
       "pointsBySprint": [
-        20,
         16,
         31,
         20,
@@ -350,17 +349,17 @@
         26,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "gustavo.pontual",
-      "totalPoints": 610,
+      "totalPoints": 602,
       "sprintsActive": 26,
-      "avgPerSprint": 23.5,
-      "teamPct": 24.8,
+      "avgPerSprint": 23.2,
+      "teamPct": 24.6,
       "pointsBySprint": [
-        26,
         22,
         25,
         15,
@@ -389,17 +388,17 @@
         18,
         27,
         0,
-        30
+        30,
+        18
       ]
     },
     {
       "name": "Alexander Dorow",
-      "totalPoints": 345,
-      "sprintsActive": 26,
-      "avgPerSprint": 13.3,
-      "teamPct": 14.0,
+      "totalPoints": 330,
+      "sprintsActive": 25,
+      "avgPerSprint": 13.2,
+      "teamPct": 13.5,
       "pointsBySprint": [
-        15,
         21,
         18,
         4,
@@ -428,7 +427,8 @@
         4,
         29,
         43,
-        13
+        13,
+        0
       ]
     },
     {
@@ -438,7 +438,6 @@
       "avgPerSprint": 11.9,
       "teamPct": 12.6,
       "pointsBySprint": [
-        0,
         7,
         10,
         15,
@@ -467,17 +466,17 @@
         20,
         3,
         22,
-        13
+        13,
+        0
       ]
     },
     {
       "name": "Rosines da Silva Almeida",
-      "totalPoints": 236,
-      "sprintsActive": 11,
-      "avgPerSprint": 21.5,
-      "teamPct": 9.6,
+      "totalPoints": 269,
+      "sprintsActive": 12,
+      "avgPerSprint": 22.4,
+      "teamPct": 11.0,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -506,17 +505,17 @@
         25,
         33,
         39,
-        29
+        29,
+        33
       ]
     },
     {
       "name": "Usuário inativo",
-      "totalPoints": 186,
-      "sprintsActive": 9,
-      "avgPerSprint": 20.7,
-      "teamPct": 7.6,
+      "totalPoints": 164,
+      "sprintsActive": 8,
+      "avgPerSprint": 20.5,
+      "teamPct": 6.7,
       "pointsBySprint": [
-        22,
         24,
         29,
         21,
@@ -525,6 +524,7 @@
         24,
         18,
         11,
+        0,
         0,
         0,
         0,
@@ -563,13 +563,13 @@
         0,
         0,
         0,
-        0,
         22,
         36,
         30,
         26,
         23,
         5,
+        0,
         0,
         0,
         0,
@@ -607,10 +607,10 @@
         0,
         0,
         0,
-        0,
         3,
         0,
         37,
+        0,
         0,
         0,
         0,
@@ -648,8 +648,8 @@
         0,
         0,
         0,
-        0,
         35,
+        0,
         0,
         0,
         0,
@@ -687,8 +687,8 @@
         0,
         0,
         0,
-        0,
         21,
+        0,
         0,
         0,
         0,
@@ -711,7 +711,6 @@
       "avgPerSprint": 3.2,
       "teamPct": 0.7,
       "pointsBySprint": [
-        0,
         3,
         0,
         0,
@@ -734,6 +733,7 @@
         9,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -765,8 +765,8 @@
         0,
         0,
         0,
-        0,
         10,
+        0,
         0,
         0,
         0,
@@ -803,8 +803,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -843,8 +843,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         0,
         0,
         0,
@@ -864,23 +864,23 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 769
+      "count": 772
     },
     {
       "label": "Melhoria",
-      "count": 203
+      "count": 189
     },
     {
       "label": "Bug",
-      "count": 138
+      "count": 127
     },
     {
       "label": "Spike",
-      "count": 59
+      "count": 57
     },
     {
       "label": "Épico",
-      "count": 14
+      "count": 13
     }
   ]
 }

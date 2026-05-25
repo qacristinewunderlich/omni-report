@@ -4,24 +4,14 @@
     "squadName": "Inbound",
     "boardId": 156,
     "projectKey": "LEAD",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1016,
-    "totalPoints": 1505,
-    "velocityAvg": 50
+    "totalIssues": 978,
+    "totalPoints": 1483,
+    "velocityAvg": 49
   },
   "sprints": [
-    {
-      "id": 41,
-      "name": "Sprint 41",
-      "start": "2025-01-27",
-      "end": "2025-02-07",
-      "completedAt": "2025-02-07",
-      "points": 81,
-      "issues": 73,
-      "growth": null
-    },
     {
       "id": 42,
       "name": "Sprint 42 - Flows +CAPI Google",
@@ -30,7 +20,7 @@
       "completedAt": "2025-02-24",
       "points": 45,
       "issues": 36,
-      "growth": -44.4
+      "growth": null
     },
     {
       "id": 2,
@@ -58,9 +48,9 @@
       "start": "2025-03-17",
       "end": "2025-03-28",
       "completedAt": "2025-03-28",
-      "points": 72,
-      "issues": 52,
-      "growth": -6.5
+      "points": 74,
+      "issues": 53,
+      "growth": -3.9
     },
     {
       "id": 45,
@@ -70,7 +60,7 @@
       "completedAt": "2025-04-11",
       "points": 66,
       "issues": 55,
-      "growth": -8.3
+      "growth": -10.8
     },
     {
       "id": 46,
@@ -198,9 +188,9 @@
       "start": "2025-10-28",
       "end": "2025-11-07",
       "completedAt": "2025-11-07",
-      "points": 38,
+      "points": 49,
       "issues": 27,
-      "growth": -5.0
+      "growth": 22.5
     },
     {
       "id": 61,
@@ -210,7 +200,7 @@
       "completedAt": "2025-11-21",
       "points": 38,
       "issues": 30,
-      "growth": 0.0
+      "growth": -22.4
     },
     {
       "id": 62,
@@ -269,7 +259,7 @@
       "end": "2026-03-13",
       "completedAt": "2026-03-13",
       "points": 52,
-      "issues": 33,
+      "issues": 34,
       "growth": 13.0
     },
     {
@@ -279,7 +269,7 @@
       "end": "2026-03-27",
       "completedAt": "2026-03-27",
       "points": 30,
-      "issues": 25,
+      "issues": 26,
       "growth": -42.3
     },
     {
@@ -299,7 +289,7 @@
       "end": "2026-04-24",
       "completedAt": "2026-04-24",
       "points": 53,
-      "issues": 28,
+      "issues": 32,
       "growth": -7.0
     },
     {
@@ -309,58 +299,28 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-08",
       "points": 58,
-      "issues": 39,
+      "issues": 44,
       "growth": 9.4
+    },
+    {
+      "id": 72,
+      "name": "Sprint 72",
+      "start": "2026-05-13",
+      "end": "2026-05-22",
+      "completedAt": "2026-05-22",
+      "points": 46,
+      "issues": 23,
+      "growth": -20.7
     }
   ],
   "assignees": [
     {
-      "name": "Elizeu Moreira",
-      "totalPoints": 309,
-      "sprintsActive": 29,
-      "avgPerSprint": 10.7,
-      "teamPct": 20.5,
-      "pointsBySprint": [
-        19,
-        16,
-        6,
-        15,
-        15,
-        14,
-        8,
-        7,
-        11,
-        11,
-        7,
-        7,
-        8,
-        12,
-        6,
-        7,
-        13,
-        0,
-        8,
-        8,
-        8,
-        8,
-        11,
-        8,
-        9,
-        9,
-        9,
-        14,
-        20,
-        15
-      ]
-    },
-    {
       "name": "igor.mattiolli",
-      "totalPoints": 299,
+      "totalPoints": 311,
       "sprintsActive": 28,
-      "avgPerSprint": 10.7,
-      "teamPct": 19.9,
+      "avgPerSprint": 11.1,
+      "teamPct": 21.0,
       "pointsBySprint": [
-        2,
         0,
         0,
         13,
@@ -389,17 +349,56 @@
         2,
         13,
         13,
-        11
+        11,
+        14
+      ]
+    },
+    {
+      "name": "Elizeu Moreira",
+      "totalPoints": 310,
+      "sprintsActive": 29,
+      "avgPerSprint": 10.7,
+      "teamPct": 20.9,
+      "pointsBySprint": [
+        16,
+        6,
+        15,
+        17,
+        14,
+        8,
+        7,
+        11,
+        11,
+        7,
+        7,
+        8,
+        12,
+        6,
+        7,
+        13,
+        0,
+        8,
+        8,
+        8,
+        8,
+        11,
+        8,
+        9,
+        9,
+        9,
+        14,
+        22,
+        17,
+        14
       ]
     },
     {
       "name": "Eduardo Moreira da Silva",
-      "totalPoints": 248,
-      "sprintsActive": 24,
-      "avgPerSprint": 10.3,
-      "teamPct": 16.5,
+      "totalPoints": 226,
+      "sprintsActive": 23,
+      "avgPerSprint": 9.8,
+      "teamPct": 15.2,
       "pointsBySprint": [
-        22,
         0,
         1,
         12,
@@ -428,6 +427,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -436,9 +436,8 @@
       "totalPoints": 219,
       "sprintsActive": 18,
       "avgPerSprint": 12.2,
-      "teamPct": 14.6,
+      "teamPct": 14.8,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -467,17 +466,17 @@
         11,
         7,
         13,
-        15
+        15,
+        0
       ]
     },
     {
       "name": "Matheus Kroska",
-      "totalPoints": 172,
-      "sprintsActive": 12,
-      "avgPerSprint": 14.3,
-      "teamPct": 11.4,
+      "totalPoints": 159,
+      "sprintsActive": 11,
+      "avgPerSprint": 14.5,
+      "teamPct": 10.7,
       "pointsBySprint": [
-        13,
         14,
         11,
         25,
@@ -489,6 +488,7 @@
         12,
         10,
         9,
+        0,
         0,
         0,
         0,
@@ -511,12 +511,11 @@
     },
     {
       "name": "Carlos Alexandre Leite Vieira",
-      "totalPoints": 142,
-      "sprintsActive": 23,
-      "avgPerSprint": 6.2,
-      "teamPct": 9.4,
+      "totalPoints": 152,
+      "sprintsActive": 24,
+      "avgPerSprint": 6.3,
+      "teamPct": 10.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -545,17 +544,56 @@
         3,
         0,
         0,
-        8
+        11,
+        7
+      ]
+    },
+    {
+      "name": "Arthur Pereira Machado",
+      "totalPoints": 80,
+      "sprintsActive": 11,
+      "avgPerSprint": 7.3,
+      "teamPct": 5.4,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        8,
+        6,
+        5,
+        5,
+        8,
+        8,
+        11,
+        13,
+        6,
+        6
       ]
     },
     {
       "name": "Édipo Juan Silva",
-      "totalPoints": 91,
-      "sprintsActive": 7,
-      "avgPerSprint": 13.0,
-      "teamPct": 6.0,
+      "totalPoints": 66,
+      "sprintsActive": 6,
+      "avgPerSprint": 11.0,
+      "teamPct": 4.5,
       "pointsBySprint": [
-        25,
         15,
         8,
         12,
@@ -584,56 +622,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
-      "name": "Arthur Pereira Machado",
-      "totalPoints": 66,
-      "sprintsActive": 10,
-      "avgPerSprint": 6.6,
-      "teamPct": 4.4,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        8,
-        6,
-        5,
-        5,
-        6,
-        6,
-        11,
-        11,
-        4
-      ]
-    },
-    {
       "name": "mauricio.silva",
-      "totalPoints": 52,
-      "sprintsActive": 7,
-      "avgPerSprint": 7.4,
-      "teamPct": 3.5,
+      "totalPoints": 63,
+      "sprintsActive": 8,
+      "avgPerSprint": 7.9,
+      "teamPct": 4.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -661,7 +660,8 @@
         9,
         9,
         13,
-        9,
+        12,
+        8,
         5
       ]
     },
@@ -708,23 +708,19 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 666
+      "count": 646
     },
     {
       "label": "Spike",
-      "count": 169
+      "count": 162
     },
     {
       "label": "Melhoria",
-      "count": 145
+      "count": 140
     },
     {
       "label": "Bug",
-      "count": 33
-    },
-    {
-      "label": "Suporte Técnico",
-      "count": 1
+      "count": 28
     },
     {
       "label": "História",

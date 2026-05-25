@@ -4,10 +4,10 @@
     "squadName": "Whizz Core",
     "boardId": 219,
     "projectKey": "WC",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1006,
+    "totalIssues": 1015,
     "totalPoints": 2603,
     "velocityAvg": 87
   },
@@ -239,7 +239,7 @@
       "end": "2026-03-05",
       "completedAt": "2026-03-09",
       "points": 98,
-      "issues": 43,
+      "issues": 44,
       "growth": 36.1
     },
     {
@@ -249,7 +249,7 @@
       "end": "2026-03-19",
       "completedAt": "2026-03-20",
       "points": 98,
-      "issues": 31,
+      "issues": 32,
       "growth": 0.0
     },
     {
@@ -299,7 +299,7 @@
       "end": "2026-04-30",
       "completedAt": "2026-05-04",
       "points": 75,
-      "issues": 53,
+      "issues": 54,
       "growth": -5.1
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-05-14",
       "completedAt": "2026-05-15",
       "points": 71,
-      "issues": 34,
+      "issues": 40,
       "growth": -5.3
     }
   ],
@@ -355,10 +355,10 @@
     },
     {
       "name": "Bruno Haully",
-      "totalPoints": 516,
+      "totalPoints": 526,
       "sprintsActive": 26,
-      "avgPerSprint": 19.8,
-      "teamPct": 19.8,
+      "avgPerSprint": 20.2,
+      "teamPct": 20.2,
       "pointsBySprint": [
         15,
         15,
@@ -382,8 +382,8 @@
         9,
         8,
         6,
-        31,
-        14,
+        36,
+        19,
         51,
         0,
         23,
@@ -1056,6 +1056,45 @@
       ]
     },
     {
+      "name": "Marcos Martinewski Alves",
+      "totalPoints": 8,
+      "sprintsActive": 1,
+      "avgPerSprint": 8.0,
+      "teamPct": 0.3,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ]
+    },
+    {
       "name": "Deusimar Ribeiro",
       "totalPoints": 7,
       "sprintsActive": 2,
@@ -1371,11 +1410,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 632
+      "count": 636
     },
     {
       "label": "Bug",
-      "count": 332
+      "count": 337
     },
     {
       "label": "Spike",

@@ -4,10 +4,10 @@
     "squadName": "CRM",
     "boardId": 955,
     "projectKey": "IC",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 4,
-    "totalIssues": 80,
+    "totalIssues": 86,
     "totalPoints": 105,
     "velocityAvg": 26
   },
@@ -39,7 +39,7 @@
       "end": "2026-04-25",
       "completedAt": "2026-04-25",
       "points": 32,
-      "issues": 33,
+      "issues": 35,
       "growth": 10.3
     },
     {
@@ -49,22 +49,35 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-12",
       "points": 30,
-      "issues": 15,
+      "issues": 19,
       "growth": -6.2
     }
   ],
   "assignees": [
     {
       "name": "Eduardo Moreira da Silva",
-      "totalPoints": 37,
+      "totalPoints": 43,
       "sprintsActive": 4,
-      "avgPerSprint": 9.2,
-      "teamPct": 35.2,
+      "avgPerSprint": 10.8,
+      "teamPct": 41.0,
       "pointsBySprint": [
         8,
         8,
+        12,
+        15
+      ]
+    },
+    {
+      "name": "Lucas Henrique da Silva de Oliveira",
+      "totalPoints": 32,
+      "sprintsActive": 4,
+      "avgPerSprint": 8.0,
+      "teamPct": 30.5,
+      "pointsBySprint": [
+        4,
         9,
-        12
+        13,
+        6
       ]
     },
     {
@@ -78,19 +91,6 @@
         9,
         10,
         7
-      ]
-    },
-    {
-      "name": "Lucas Henrique da Silva de Oliveira",
-      "totalPoints": 30,
-      "sprintsActive": 4,
-      "avgPerSprint": 7.5,
-      "teamPct": 28.6,
-      "pointsBySprint": [
-        4,
-        9,
-        13,
-        4
       ]
     },
     {
@@ -110,7 +110,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 65
+      "count": 70
     },
     {
       "label": "Bug",
@@ -123,6 +123,10 @@
     {
       "label": "História",
       "count": 2
+    },
+    {
+      "label": "Subtarefa",
+      "count": 1
     }
   ]
 }

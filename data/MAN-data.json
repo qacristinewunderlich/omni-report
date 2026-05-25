@@ -4,24 +4,14 @@
     "squadName": "Manager",
     "boardId": 225,
     "projectKey": "MAN",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 811,
-    "totalPoints": 1943,
-    "velocityAvg": 65
+    "totalIssues": 840,
+    "totalPoints": 2033,
+    "velocityAvg": 68
   },
   "sprints": [
-    {
-      "id": 2,
-      "name": "Manager / Sprint 2",
-      "start": "2025-02-11",
-      "end": "2025-02-21",
-      "completedAt": "2025-02-21",
-      "points": 78,
-      "issues": 29,
-      "growth": null
-    },
     {
       "id": 3,
       "name": "Manager / Sprint 3",
@@ -30,7 +20,7 @@
       "completedAt": "2025-03-10",
       "points": 77,
       "issues": 29,
-      "growth": -1.3
+      "growth": null
     },
     {
       "id": 4,
@@ -198,9 +188,9 @@
       "start": "2025-10-24",
       "end": "2025-10-31",
       "completedAt": "2025-10-31",
-      "points": 30,
+      "points": 37,
       "issues": 16,
-      "growth": -3.2
+      "growth": 19.4
     },
     {
       "id": 21,
@@ -210,7 +200,7 @@
       "completedAt": "2025-11-18",
       "points": 31,
       "issues": 18,
-      "growth": 3.3
+      "growth": -16.2
     },
     {
       "id": 22,
@@ -311,17 +301,26 @@
       "points": 87,
       "issues": 36,
       "growth": -17.1
+    },
+    {
+      "id": 32,
+      "name": "Manager / Sprint 32",
+      "start": "2026-05-07",
+      "end": "2026-05-15",
+      "completedAt": "2026-05-18",
+      "points": 161,
+      "issues": 58,
+      "growth": 85.1
     }
   ],
   "assignees": [
     {
       "name": "Israel Almeida Cardoso Júnior",
-      "totalPoints": 773,
+      "totalPoints": 806,
       "sprintsActive": 30,
-      "avgPerSprint": 25.8,
-      "teamPct": 39.8,
+      "avgPerSprint": 26.9,
+      "teamPct": 39.6,
       "pointsBySprint": [
-        29,
         33,
         30,
         28,
@@ -350,17 +349,17 @@
         36,
         8,
         61,
-        36
+        36,
+        62
       ]
     },
     {
       "name": "Leonardo Matheus do valle",
-      "totalPoints": 527,
-      "sprintsActive": 25,
-      "avgPerSprint": 21.1,
-      "teamPct": 27.1,
+      "totalPoints": 574,
+      "sprintsActive": 26,
+      "avgPerSprint": 22.1,
+      "teamPct": 28.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -389,17 +388,17 @@
         34,
         36,
         31,
-        59
+        59,
+        47
       ]
     },
     {
       "name": "Eduardo Oliveira",
-      "totalPoints": 278,
+      "totalPoints": 280,
       "sprintsActive": 28,
-      "avgPerSprint": 9.9,
-      "teamPct": 14.3,
+      "avgPerSprint": 10.0,
+      "teamPct": 13.8,
       "pointsBySprint": [
-        11,
         5,
         8,
         7,
@@ -428,17 +427,17 @@
         14,
         12,
         32,
-        8
+        8,
+        13
       ]
     },
     {
       "name": "Gabriel Mazzardo",
-      "totalPoints": 218,
-      "sprintsActive": 10,
-      "avgPerSprint": 21.8,
-      "teamPct": 11.2,
+      "totalPoints": 181,
+      "sprintsActive": 9,
+      "avgPerSprint": 20.1,
+      "teamPct": 8.9,
       "pointsBySprint": [
-        37,
         34,
         41,
         35,
@@ -467,17 +466,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Bruno Bianchini",
-      "totalPoints": 155,
-      "sprintsActive": 13,
-      "avgPerSprint": 11.9,
-      "teamPct": 8.0,
+      "totalPoints": 177,
+      "sprintsActive": 14,
+      "avgPerSprint": 12.6,
+      "teamPct": 8.7,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -506,56 +505,17 @@
         15,
         10,
         27,
-        19
-      ]
-    },
-    {
-      "name": "Marlon Carvalho",
-      "totalPoints": 92,
-      "sprintsActive": 10,
-      "avgPerSprint": 9.2,
-      "teamPct": 4.7,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        7,
-        9,
-        8,
-        13,
-        7,
-        13,
-        8,
-        13,
-        12,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        19,
+        22
       ]
     },
     {
       "name": "Bruno Alves",
-      "totalPoints": 68,
-      "sprintsActive": 4,
-      "avgPerSprint": 17.0,
-      "teamPct": 3.5,
+      "totalPoints": 97,
+      "sprintsActive": 5,
+      "avgPerSprint": 19.4,
+      "teamPct": 4.8,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -584,7 +544,47 @@
         6,
         31,
         11,
-        20
+        20,
+        29
+      ]
+    },
+    {
+      "name": "Marlon Carvalho",
+      "totalPoints": 92,
+      "sprintsActive": 10,
+      "avgPerSprint": 9.2,
+      "teamPct": 4.5,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        7,
+        9,
+        8,
+        13,
+        7,
+        13,
+        8,
+        13,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -592,9 +592,8 @@
       "totalPoints": 52,
       "sprintsActive": 5,
       "avgPerSprint": 10.4,
-      "teamPct": 2.7,
+      "teamPct": 2.6,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -623,6 +622,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -631,9 +631,8 @@
       "totalPoints": 27,
       "sprintsActive": 6,
       "avgPerSprint": 4.5,
-      "teamPct": 1.4,
+      "teamPct": 1.3,
       "pointsBySprint": [
-        0,
         5,
         0,
         8,
@@ -662,17 +661,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Rafael da Rocha",
-      "totalPoints": 9,
-      "sprintsActive": 2,
-      "avgPerSprint": 4.5,
-      "teamPct": 0.5,
+      "totalPoints": 8,
+      "sprintsActive": 1,
+      "avgPerSprint": 8.0,
+      "teamPct": 0.4,
       "pointsBySprint": [
-        1,
         0,
         0,
         0,
@@ -701,30 +700,70 @@
         0,
         0,
         0,
+        0,
         0
+      ]
+    },
+    {
+      "name": "miguel.santos",
+      "totalPoints": 3,
+      "sprintsActive": 1,
+      "avgPerSprint": 3.0,
+      "teamPct": 0.1,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 548
+      "count": 571
     },
     {
       "label": "Bug",
-      "count": 201
+      "count": 203
     },
     {
       "label": "História",
-      "count": 33
+      "count": 35
     },
     {
       "label": "Spike",
-      "count": 23
+      "count": 24
     },
     {
       "label": "Suporte Técnico",
-      "count": 6
+      "count": 7
     }
   ]
 }

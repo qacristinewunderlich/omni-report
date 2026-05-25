@@ -4,24 +4,14 @@
     "squadName": "Commerce",
     "boardId": 152,
     "projectKey": "SC",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1069,
-    "totalPoints": 1798,
+    "totalIssues": 1077,
+    "totalPoints": 1786,
     "velocityAvg": 60
   },
   "sprints": [
-    {
-      "id": 30,
-      "name": "SP Sprint 30",
-      "start": "2024-12-23",
-      "end": "2025-01-11",
-      "completedAt": "2025-01-13",
-      "points": 80,
-      "issues": 39,
-      "growth": null
-    },
     {
       "id": 1,
       "name": "SC Sprint 1",
@@ -30,7 +20,7 @@
       "completedAt": "2025-02-07",
       "points": 74,
       "issues": 41,
-      "growth": -7.5
+      "growth": null
     },
     {
       "id": 2,
@@ -198,9 +188,9 @@
       "start": "2025-08-13",
       "end": "2025-08-22",
       "completedAt": "2025-08-22",
-      "points": 49,
+      "points": 60,
       "issues": 29,
-      "growth": -50.0
+      "growth": -38.8
     },
     {
       "id": 15,
@@ -210,7 +200,7 @@
       "completedAt": "2025-09-05",
       "points": 130,
       "issues": 38,
-      "growth": 165.3
+      "growth": 116.7
     },
     {
       "id": 16,
@@ -299,7 +289,7 @@
       "end": "2026-05-02",
       "completedAt": "2026-04-22",
       "points": 84,
-      "issues": 73,
+      "issues": 74,
       "growth": 78.7
     },
     {
@@ -309,19 +299,28 @@
       "end": "2026-04-30",
       "completedAt": "2026-05-04",
       "points": 36,
-      "issues": 53,
+      "issues": 54,
       "growth": -57.1
+    },
+    {
+      "id": 21,
+      "name": "SC Sprint 21",
+      "start": "2026-05-06",
+      "end": "2026-05-20",
+      "completedAt": "2026-05-19",
+      "points": 57,
+      "issues": 45,
+      "growth": 58.3
     }
   ],
   "assignees": [
     {
       "name": "Deusimar Ribeiro",
-      "totalPoints": 327,
+      "totalPoints": 318,
       "sprintsActive": 23,
-      "avgPerSprint": 14.2,
-      "teamPct": 18.2,
+      "avgPerSprint": 13.8,
+      "teamPct": 17.8,
       "pointsBySprint": [
-        11,
         16,
         14,
         20,
@@ -350,17 +349,17 @@
         34,
         0,
         8,
-        4
+        4,
+        2
       ]
     },
     {
       "name": "Rodrigo Marques",
-      "totalPoints": 299,
+      "totalPoints": 312,
       "sprintsActive": 23,
-      "avgPerSprint": 13.0,
-      "teamPct": 16.6,
+      "avgPerSprint": 13.6,
+      "teamPct": 17.5,
       "pointsBySprint": [
-        2,
         10,
         14,
         11,
@@ -389,7 +388,8 @@
         31,
         0,
         12,
-        12
+        12,
+        15
       ]
     },
     {
@@ -397,9 +397,8 @@
       "totalPoints": 247,
       "sprintsActive": 5,
       "avgPerSprint": 49.4,
-      "teamPct": 13.7,
+      "teamPct": 13.8,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -428,17 +427,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Lucas Daniel Arcanjo",
-      "totalPoints": 233,
+      "totalPoints": 226,
       "sprintsActive": 24,
-      "avgPerSprint": 9.7,
-      "teamPct": 13.0,
+      "avgPerSprint": 9.4,
+      "teamPct": 12.7,
       "pointsBySprint": [
-        19,
         14,
         16,
         3,
@@ -467,17 +466,17 @@
         26,
         0,
         19,
-        2
+        2,
+        12
       ]
     },
     {
       "name": "Enzo Spagnolli",
-      "totalPoints": 192,
-      "sprintsActive": 14,
-      "avgPerSprint": 13.7,
-      "teamPct": 10.7,
+      "totalPoints": 207,
+      "sprintsActive": 15,
+      "avgPerSprint": 13.8,
+      "teamPct": 11.6,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -506,7 +505,8 @@
         28,
         0,
         7,
-        10
+        10,
+        15
       ]
     },
     {
@@ -514,9 +514,8 @@
       "totalPoints": 168,
       "sprintsActive": 7,
       "avgPerSprint": 24.0,
-      "teamPct": 9.3,
+      "teamPct": 9.4,
       "pointsBySprint": [
-        0,
         30,
         20,
         24,
@@ -525,6 +524,7 @@
         24,
         20,
         24,
+        0,
         0,
         0,
         0,
@@ -571,7 +571,6 @@
         0,
         0,
         0,
-        0,
         11,
         0,
         32,
@@ -579,6 +578,7 @@
         32,
         0,
         52,
+        0,
         0,
         0,
         0,
@@ -594,7 +594,6 @@
       "avgPerSprint": 31.0,
       "teamPct": 5.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -623,17 +622,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Italo Francisco Magdalena",
-      "totalPoints": 59,
-      "sprintsActive": 2,
-      "avgPerSprint": 29.5,
-      "teamPct": 3.3,
+      "totalPoints": 83,
+      "sprintsActive": 3,
+      "avgPerSprint": 27.7,
+      "teamPct": 4.6,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -662,56 +661,17 @@
         0,
         0,
         0,
-        32
-      ]
-    },
-    {
-      "name": "Lucas Viana",
-      "totalPoints": 55,
-      "sprintsActive": 3,
-      "avgPerSprint": 18.3,
-      "teamPct": 3.1,
-      "pointsBySprint": [
-        18,
-        4,
-        0,
-        0,
-        0,
-        33,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        32,
+        24
       ]
     },
     {
       "name": "Samoel Dametto",
-      "totalPoints": 48,
-      "sprintsActive": 3,
-      "avgPerSprint": 16.0,
-      "teamPct": 2.7,
+      "totalPoints": 61,
+      "sprintsActive": 4,
+      "avgPerSprint": 15.2,
+      "teamPct": 3.4,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -740,7 +700,8 @@
         0,
         0,
         30,
-        7
+        7,
+        13
       ]
     },
     {
@@ -750,7 +711,6 @@
       "avgPerSprint": 5.9,
       "teamPct": 2.6,
       "pointsBySprint": [
-        0,
         0,
         5,
         0,
@@ -779,6 +739,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -787,9 +748,8 @@
       "totalPoints": 44,
       "sprintsActive": 3,
       "avgPerSprint": 14.7,
-      "teamPct": 2.4,
+      "teamPct": 2.5,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -818,6 +778,46 @@
         0,
         0,
         0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Lucas Viana",
+      "totalPoints": 37,
+      "sprintsActive": 2,
+      "avgPerSprint": 18.5,
+      "teamPct": 2.1,
+      "pointsBySprint": [
+        4,
+        0,
+        0,
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ]
     },
@@ -832,8 +832,8 @@
         0,
         0,
         0,
-        0,
         37,
+        0,
         0,
         0,
         0,
@@ -871,7 +871,6 @@
         0,
         0,
         0,
-        0,
         4,
         0,
         0,
@@ -896,7 +895,47 @@
         0,
         0,
         0,
+        0,
         0
+      ]
+    },
+    {
+      "name": "marcos.araujo",
+      "totalPoints": 36,
+      "sprintsActive": 4,
+      "avgPerSprint": 9.0,
+      "teamPct": 2.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        8,
+        8,
+        17
       ]
     },
     {
@@ -924,50 +963,11 @@
         0,
         0,
         0,
-        0,
         5,
         0,
         21,
         0,
         8,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Israel Almeida Cardoso Júnior",
-      "totalPoints": 30,
-      "sprintsActive": 1,
-      "avgPerSprint": 30.0,
-      "teamPct": 1.7,
-      "pointsBySprint": [
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -1007,8 +1007,8 @@
         0,
         0,
         0,
-        0,
         27,
+        0,
         0,
         0,
         0,
@@ -1047,8 +1047,8 @@
         0,
         0,
         0,
-        0,
         27,
+        0,
         0,
         0,
         0,
@@ -1086,8 +1086,8 @@
         0,
         0,
         0,
-        0,
         25,
+        0,
         0,
         0,
         0,
@@ -1125,51 +1125,12 @@
         0,
         0,
         0,
-        0,
         19,
         0,
         0,
         0,
+        0,
         0
-      ]
-    },
-    {
-      "name": "marcos.araujo",
-      "totalPoints": 19,
-      "sprintsActive": 3,
-      "avgPerSprint": 6.3,
-      "teamPct": 1.1,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        8,
-        8
       ]
     },
     {
@@ -1205,8 +1166,8 @@
         0,
         0,
         0,
-        0,
         13,
+        0,
         0,
         0
       ]
@@ -1244,8 +1205,8 @@
         0,
         0,
         0,
-        0,
         13,
+        0,
         0,
         0
       ]
@@ -1267,8 +1228,8 @@
         0,
         0,
         0,
-        0,
         10,
+        0,
         0,
         0,
         0,
@@ -1322,8 +1283,8 @@
         0,
         0,
         0,
-        0,
         10,
+        0,
         0,
         0
       ]
@@ -1359,8 +1320,8 @@
         0,
         0,
         0,
-        0,
         9,
+        0,
         0,
         0,
         0,
@@ -1397,8 +1358,8 @@
         0,
         0,
         0,
-        0,
         8,
+        0,
         0,
         0,
         0,
@@ -1423,8 +1384,8 @@
         0,
         0,
         0,
-        0,
         6,
+        0,
         0,
         0,
         0,
@@ -1478,8 +1439,8 @@
         0,
         0,
         0,
-        0,
         6,
+        0,
         0,
         0
       ]
@@ -1517,8 +1478,8 @@
         0,
         0,
         0,
-        0,
         5,
+        0,
         0,
         0
       ]
@@ -1533,7 +1494,6 @@
         0,
         0,
         0,
-        0,
         1,
         0,
         0,
@@ -1542,6 +1502,7 @@
         0,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -1591,8 +1552,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1630,8 +1591,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1641,7 +1602,7 @@
       ]
     },
     {
-      "name": "Rafael da Rocha",
+      "name": "Cleverson Boff",
       "totalPoints": 0,
       "sprintsActive": 0,
       "avgPerSprint": 0,
@@ -1680,7 +1641,7 @@
       ]
     },
     {
-      "name": "Cleverson Boff",
+      "name": "Rafael da Rocha",
       "totalPoints": 0,
       "sprintsActive": 0,
       "avgPerSprint": 0,
@@ -1800,23 +1761,23 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 692
+      "count": 705
     },
     {
       "label": "Bug",
-      "count": 271
+      "count": 273
     },
     {
       "label": "Épico",
       "count": 46
     },
     {
-      "label": "Melhoria",
-      "count": 30
+      "label": "Spike",
+      "count": 24
     },
     {
-      "label": "Spike",
-      "count": 25
+      "label": "Melhoria",
+      "count": 24
     },
     {
       "label": "Subtarefa",

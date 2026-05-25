@@ -4,24 +4,14 @@
     "squadName": "CloudOps",
     "boardId": 133,
     "projectKey": "BO",
-    "generatedAt": "2026-05-18",
+    "generatedAt": "2026-05-25",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1164,
-    "totalPoints": 2477,
+    "totalIssues": 1161,
+    "totalPoints": 2479,
     "velocityAvg": 83
   },
   "sprints": [
-    {
-      "id": 54,
-      "name": "BOT: Sprint 54",
-      "start": "2025-03-03",
-      "end": "2025-03-14",
-      "completedAt": "2025-03-14",
-      "points": 93,
-      "issues": 42,
-      "growth": null
-    },
     {
       "id": 55,
       "name": "BOT: Sprint 55",
@@ -30,7 +20,7 @@
       "completedAt": "2025-03-28",
       "points": 104,
       "issues": 45,
-      "growth": 11.8
+      "growth": null
     },
     {
       "id": 56,
@@ -198,9 +188,9 @@
       "start": "2025-11-10",
       "end": "2025-11-21",
       "completedAt": "2025-11-21",
-      "points": 88,
+      "points": 98,
       "issues": 43,
-      "growth": -28.5
+      "growth": -20.3
     },
     {
       "id": 73,
@@ -210,7 +200,7 @@
       "completedAt": "2025-12-12",
       "points": 102,
       "issues": 55,
-      "growth": 15.9
+      "growth": 4.1
     },
     {
       "id": 74,
@@ -279,7 +269,7 @@
       "end": "2026-03-27",
       "completedAt": "2026-03-27",
       "points": 97,
-      "issues": 44,
+      "issues": 45,
       "growth": 15.5
     },
     {
@@ -289,7 +279,7 @@
       "end": "2026-04-10",
       "completedAt": "2026-04-10",
       "points": 103,
-      "issues": 50,
+      "issues": 51,
       "growth": 6.2
     },
     {
@@ -299,7 +289,7 @@
       "end": "2026-04-24",
       "completedAt": "2026-04-24",
       "points": 61,
-      "issues": 32,
+      "issues": 33,
       "growth": -40.8
     },
     {
@@ -309,19 +299,28 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-08",
       "points": 71,
-      "issues": 32,
+      "issues": 34,
       "growth": 16.4
+    },
+    {
+      "id": 84,
+      "name": "BOT: Sprint 84",
+      "start": "2026-05-11",
+      "end": "2026-05-22",
+      "completedAt": "2026-05-22",
+      "points": 85,
+      "issues": 34,
+      "growth": 19.7
     }
   ],
   "assignees": [
     {
       "name": "Lucas Juliano Schek",
-      "totalPoints": 1118,
+      "totalPoints": 1097,
       "sprintsActive": 30,
-      "avgPerSprint": 37.3,
-      "teamPct": 45.1,
+      "avgPerSprint": 36.6,
+      "teamPct": 44.3,
       "pointsBySprint": [
-        57,
         46,
         41,
         36,
@@ -347,20 +346,20 @@
         23,
         53,
         49,
-        41,
-        48,
-        19,
-        16
+        45,
+        52,
+        23,
+        20,
+        20
       ]
     },
     {
       "name": "Andre de Leles e Souza",
-      "totalPoints": 918,
+      "totalPoints": 895,
       "sprintsActive": 30,
-      "avgPerSprint": 30.6,
-      "teamPct": 37.1,
+      "avgPerSprint": 29.8,
+      "teamPct": 36.1,
       "pointsBySprint": [
-        36,
         39,
         35,
         49,
@@ -389,17 +388,17 @@
         28,
         22,
         12,
-        3
+        7,
+        9
       ]
     },
     {
       "name": "Rodrigo Bitu de Moraes",
-      "totalPoints": 554,
-      "sprintsActive": 17,
-      "avgPerSprint": 32.6,
-      "teamPct": 22.4,
+      "totalPoints": 610,
+      "sprintsActive": 18,
+      "avgPerSprint": 33.9,
+      "teamPct": 24.6,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -428,7 +427,8 @@
         33,
         45,
         44,
-        54
+        54,
+        56
       ]
     },
     {
@@ -438,12 +438,12 @@
       "avgPerSprint": 10.8,
       "teamPct": 2.2,
       "pointsBySprint": [
-        0,
         19,
         12,
         5,
         9,
         9,
+        0,
         0,
         0,
         0,
@@ -489,7 +489,6 @@
         0,
         0,
         0,
-        0,
         3,
         0,
         0,
@@ -499,6 +498,7 @@
         0,
         0,
         6,
+        0,
         0,
         0,
         0,
@@ -516,7 +516,6 @@
       "avgPerSprint": 4.0,
       "teamPct": 0.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -545,6 +544,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     }
@@ -552,15 +552,15 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 984
+      "count": 979
     },
     {
       "label": "Solicitação de Acesso",
-      "count": 116
+      "count": 115
     },
     {
       "label": "Spike",
-      "count": 48
+      "count": 49
     },
     {
       "label": "Subtarefa",
@@ -568,7 +568,7 @@
     },
     {
       "label": "Bug",
-      "count": 5
+      "count": 7
     },
     {
       "label": "Degradação",
