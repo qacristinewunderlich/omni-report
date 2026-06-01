@@ -4,12 +4,12 @@
     "squadName": "After Sales",
     "boardId": 590,
     "projectKey": "AS",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 18,
-    "totalIssues": 381,
-    "totalPoints": 981,
-    "velocityAvg": 54
+    "totalSprints": 19,
+    "totalIssues": 407,
+    "totalPoints": 1053,
+    "velocityAvg": 55
   },
   "sprints": [
     {
@@ -78,9 +78,9 @@
       "start": "2025-10-21",
       "end": "2025-10-30",
       "completedAt": "2025-10-31",
-      "points": 44,
+      "points": 52,
       "issues": 17,
-      "growth": -30.2
+      "growth": -17.5
     },
     {
       "id": 8,
@@ -90,7 +90,7 @@
       "completedAt": "2025-11-17",
       "points": 45,
       "issues": 19,
-      "growth": 2.3
+      "growth": -13.5
     },
     {
       "id": 9,
@@ -191,15 +191,25 @@
       "points": 78,
       "issues": 37,
       "growth": 32.2
+    },
+    {
+      "id": 19,
+      "name": "Sprint 19",
+      "start": "2026-05-19",
+      "end": "2026-05-28",
+      "completedAt": "2026-05-29",
+      "points": 64,
+      "issues": 26,
+      "growth": -17.9
     }
   ],
   "assignees": [
     {
       "name": "Yuri de Paula Oliveira",
-      "totalPoints": 465,
-      "sprintsActive": 18,
-      "avgPerSprint": 25.8,
-      "teamPct": 47.4,
+      "totalPoints": 489,
+      "sprintsActive": 19,
+      "avgPerSprint": 25.7,
+      "teamPct": 46.4,
       "pointsBySprint": [
         21,
         17,
@@ -218,15 +228,16 @@
         48,
         27,
         23,
-        46
+        46,
+        24
       ]
     },
     {
       "name": "Marlon Carvalho",
-      "totalPoints": 250,
-      "sprintsActive": 12,
-      "avgPerSprint": 20.8,
-      "teamPct": 25.5,
+      "totalPoints": 266,
+      "sprintsActive": 13,
+      "avgPerSprint": 20.5,
+      "teamPct": 25.3,
       "pointsBySprint": [
         0,
         0,
@@ -245,15 +256,16 @@
         24,
         26,
         0,
-        0
+        0,
+        16
       ]
     },
     {
       "name": "Gabriel Mazzardo",
-      "totalPoints": 212,
-      "sprintsActive": 17,
+      "totalPoints": 225,
+      "sprintsActive": 18,
       "avgPerSprint": 12.5,
-      "teamPct": 21.6,
+      "teamPct": 21.4,
       "pointsBySprint": [
         10,
         14,
@@ -272,15 +284,16 @@
         6,
         6,
         15,
-        4
+        4,
+        13
       ]
     },
     {
       "name": "jorge.cunha",
-      "totalPoints": 52,
-      "sprintsActive": 3,
-      "avgPerSprint": 17.3,
-      "teamPct": 5.3,
+      "totalPoints": 61,
+      "sprintsActive": 4,
+      "avgPerSprint": 15.2,
+      "teamPct": 5.8,
       "pointsBySprint": [
         0,
         0,
@@ -299,7 +312,8 @@
         0,
         11,
         19,
-        22
+        22,
+        9
       ]
     },
     {
@@ -307,7 +321,7 @@
       "totalPoints": 50,
       "sprintsActive": 10,
       "avgPerSprint": 5.0,
-      "teamPct": 5.1,
+      "teamPct": 4.7,
       "pointsBySprint": [
         0,
         0,
@@ -326,15 +340,16 @@
         0,
         6,
         9,
-        6
+        6,
+        0
       ]
     },
     {
       "name": "Tiago Soares de Gois",
-      "totalPoints": 20,
-      "sprintsActive": 5,
-      "avgPerSprint": 4.0,
-      "teamPct": 2.0,
+      "totalPoints": 25,
+      "sprintsActive": 6,
+      "avgPerSprint": 4.2,
+      "teamPct": 2.4,
       "pointsBySprint": [
         3,
         0,
@@ -353,7 +368,8 @@
         0,
         0,
         0,
-        0
+        0,
+        5
       ]
     },
     {
@@ -380,6 +396,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     }
@@ -387,15 +404,15 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 298
+      "count": 317
     },
     {
       "label": "Subtarefa",
-      "count": 44
+      "count": 48
     },
     {
       "label": "Bug",
-      "count": 23
+      "count": 25
     },
     {
       "label": "Spike",
@@ -403,7 +420,7 @@
     },
     {
       "label": "Épico",
-      "count": 4
+      "count": 5
     }
   ]
 }

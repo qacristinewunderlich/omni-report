@@ -4,12 +4,12 @@
     "squadName": "Inbound",
     "boardId": 156,
     "projectKey": "LEAD",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 978,
-    "totalPoints": 1483,
-    "velocityAvg": 49
+    "totalIssues": 981,
+    "totalPoints": 1485,
+    "velocityAvg": 50
   },
   "sprints": [
     {
@@ -48,9 +48,9 @@
       "start": "2025-03-17",
       "end": "2025-03-28",
       "completedAt": "2025-03-28",
-      "points": 74,
-      "issues": 53,
-      "growth": -3.9
+      "points": 76,
+      "issues": 54,
+      "growth": -1.3
     },
     {
       "id": 45,
@@ -60,7 +60,7 @@
       "completedAt": "2025-04-11",
       "points": 66,
       "issues": 55,
-      "growth": -10.8
+      "growth": -13.2
     },
     {
       "id": 46,
@@ -309,17 +309,56 @@
       "end": "2026-05-22",
       "completedAt": "2026-05-22",
       "points": 46,
-      "issues": 23,
+      "issues": 25,
       "growth": -20.7
     }
   ],
   "assignees": [
     {
+      "name": "Elizeu Moreira",
+      "totalPoints": 312,
+      "sprintsActive": 29,
+      "avgPerSprint": 10.8,
+      "teamPct": 21.0,
+      "pointsBySprint": [
+        16,
+        6,
+        15,
+        19,
+        14,
+        8,
+        7,
+        11,
+        11,
+        7,
+        7,
+        8,
+        12,
+        6,
+        7,
+        13,
+        0,
+        8,
+        8,
+        8,
+        8,
+        11,
+        8,
+        9,
+        9,
+        9,
+        14,
+        22,
+        17,
+        14
+      ]
+    },
+    {
       "name": "igor.mattiolli",
       "totalPoints": 311,
       "sprintsActive": 28,
       "avgPerSprint": 11.1,
-      "teamPct": 21.0,
+      "teamPct": 20.9,
       "pointsBySprint": [
         0,
         0,
@@ -350,45 +389,6 @@
         13,
         13,
         11,
-        14
-      ]
-    },
-    {
-      "name": "Elizeu Moreira",
-      "totalPoints": 310,
-      "sprintsActive": 29,
-      "avgPerSprint": 10.7,
-      "teamPct": 20.9,
-      "pointsBySprint": [
-        16,
-        6,
-        15,
-        17,
-        14,
-        8,
-        7,
-        11,
-        11,
-        7,
-        7,
-        8,
-        12,
-        6,
-        7,
-        13,
-        0,
-        8,
-        8,
-        8,
-        8,
-        11,
-        8,
-        9,
-        9,
-        9,
-        14,
-        22,
-        17,
         14
       ]
     },
@@ -436,7 +436,7 @@
       "totalPoints": 219,
       "sprintsActive": 18,
       "avgPerSprint": 12.2,
-      "teamPct": 14.8,
+      "teamPct": 14.7,
       "pointsBySprint": [
         0,
         0,
@@ -588,11 +588,50 @@
       ]
     },
     {
+      "name": "mauricio.silva",
+      "totalPoints": 67,
+      "sprintsActive": 8,
+      "avgPerSprint": 8.4,
+      "teamPct": 4.5,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        4,
+        9,
+        9,
+        13,
+        12,
+        8,
+        9
+      ]
+    },
+    {
       "name": "Édipo Juan Silva",
       "totalPoints": 66,
       "sprintsActive": 6,
       "avgPerSprint": 11.0,
-      "teamPct": 4.5,
+      "teamPct": 4.4,
       "pointsBySprint": [
         15,
         8,
@@ -624,45 +663,6 @@
         0,
         0,
         0
-      ]
-    },
-    {
-      "name": "mauricio.silva",
-      "totalPoints": 63,
-      "sprintsActive": 8,
-      "avgPerSprint": 7.9,
-      "teamPct": 4.2,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        0,
-        4,
-        9,
-        9,
-        13,
-        12,
-        8,
-        5
       ]
     },
     {
@@ -708,7 +708,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 646
+      "count": 649
     },
     {
       "label": "Spike",

@@ -4,10 +4,10 @@
     "squadName": "Dados",
     "boardId": 260,
     "projectKey": "SD",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 990,
+    "totalIssues": 993,
     "totalPoints": 2803,
     "velocityAvg": 93
   },
@@ -279,7 +279,7 @@
       "end": "2026-04-24",
       "completedAt": "2026-04-25",
       "points": 112,
-      "issues": 32,
+      "issues": 33,
       "growth": 47.4
     },
     {
@@ -289,7 +289,7 @@
       "end": "2026-05-10",
       "completedAt": "2026-05-09",
       "points": 140,
-      "issues": 35,
+      "issues": 36,
       "growth": 25.0
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-05-24",
       "completedAt": "2026-05-25",
       "points": 156,
-      "issues": 45,
+      "issues": 46,
       "growth": 75.3
     }
   ],
@@ -1449,7 +1449,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 795
+      "count": 798
     },
     {
       "label": "Bug",

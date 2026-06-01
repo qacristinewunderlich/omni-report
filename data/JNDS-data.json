@@ -4,12 +4,12 @@
     "squadName": "Jornadas",
     "boardId": 889,
     "projectKey": "JNDS",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 2,
-    "totalIssues": 22,
-    "totalPoints": 62,
-    "velocityAvg": 31
+    "totalSprints": 3,
+    "totalIssues": 35,
+    "totalPoints": 99,
+    "velocityAvg": 33
   },
   "sprints": [
     {
@@ -31,58 +31,72 @@
       "points": 32,
       "issues": 10,
       "growth": 6.7
+    },
+    {
+      "id": 3,
+      "name": "quadro Sprint 3",
+      "start": "2026-05-12",
+      "end": "2026-05-21",
+      "completedAt": "2026-05-27",
+      "points": 37,
+      "issues": 13,
+      "growth": 15.6
     }
   ],
   "assignees": [
     {
       "name": "Matheus Kroska",
-      "totalPoints": 20,
-      "sprintsActive": 2,
-      "avgPerSprint": 10.0,
-      "teamPct": 32.3,
+      "totalPoints": 35,
+      "sprintsActive": 3,
+      "avgPerSprint": 11.7,
+      "teamPct": 35.4,
       "pointsBySprint": [
         11,
-        9
+        9,
+        15
       ]
     },
     {
       "name": "gustavo.silva",
-      "totalPoints": 18,
-      "sprintsActive": 2,
-      "avgPerSprint": 9.0,
-      "teamPct": 29.0,
+      "totalPoints": 25,
+      "sprintsActive": 3,
+      "avgPerSprint": 8.3,
+      "teamPct": 25.3,
       "pointsBySprint": [
+        8,
+        10,
+        7
+      ]
+    },
+    {
+      "name": "Matheus Monteiro da Luz",
+      "totalPoints": 21,
+      "sprintsActive": 3,
+      "avgPerSprint": 7.0,
+      "teamPct": 21.2,
+      "pointsBySprint": [
+        3,
         8,
         10
       ]
     },
     {
       "name": "Kayque Moreira",
-      "totalPoints": 15,
-      "sprintsActive": 2,
-      "avgPerSprint": 7.5,
-      "teamPct": 24.2,
+      "totalPoints": 20,
+      "sprintsActive": 3,
+      "avgPerSprint": 6.7,
+      "teamPct": 20.2,
       "pointsBySprint": [
         10,
+        5,
         5
-      ]
-    },
-    {
-      "name": "Matheus Monteiro da Luz",
-      "totalPoints": 11,
-      "sprintsActive": 2,
-      "avgPerSprint": 5.5,
-      "teamPct": 17.7,
-      "pointsBySprint": [
-        3,
-        8
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 20
+      "count": 33
     },
     {
       "label": "Bug",

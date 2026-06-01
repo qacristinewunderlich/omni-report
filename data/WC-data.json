@@ -4,10 +4,10 @@
     "squadName": "Whizz Core",
     "boardId": 219,
     "projectKey": "WC",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1015,
+    "totalIssues": 1018,
     "totalPoints": 2603,
     "velocityAvg": 87
   },
@@ -299,7 +299,7 @@
       "end": "2026-04-30",
       "completedAt": "2026-05-04",
       "points": 75,
-      "issues": 54,
+      "issues": 55,
       "growth": -5.1
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-05-14",
       "completedAt": "2026-05-15",
       "points": 71,
-      "issues": 40,
+      "issues": 42,
       "growth": -5.3
     }
   ],
@@ -433,10 +433,10 @@
     },
     {
       "name": "Wanderlan Carvalho",
-      "totalPoints": 422,
+      "totalPoints": 426,
       "sprintsActive": 24,
-      "avgPerSprint": 17.6,
-      "teamPct": 16.2,
+      "avgPerSprint": 17.8,
+      "teamPct": 16.4,
       "pointsBySprint": [
         17,
         15,
@@ -467,7 +467,7 @@
         5,
         16,
         0,
-        23
+        27
       ]
     },
     {
@@ -1410,11 +1410,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 636
+      "count": 638
     },
     {
       "label": "Bug",
-      "count": 337
+      "count": 338
     },
     {
       "label": "Spike",

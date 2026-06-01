@@ -4,12 +4,12 @@
     "squadName": "CRM",
     "boardId": 955,
     "projectKey": "IC",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 4,
-    "totalIssues": 86,
-    "totalPoints": 105,
-    "velocityAvg": 26
+    "totalSprints": 5,
+    "totalIssues": 109,
+    "totalPoints": 139,
+    "velocityAvg": 28
   },
   "sprints": [
     {
@@ -51,70 +51,102 @@
       "points": 30,
       "issues": 19,
       "growth": -6.2
+    },
+    {
+      "id": 6,
+      "name": "Sprint 6",
+      "start": "2026-05-12",
+      "end": "2026-05-22",
+      "completedAt": "2026-05-26",
+      "points": 34,
+      "issues": 23,
+      "growth": 13.3
     }
   ],
   "assignees": [
     {
       "name": "Eduardo Moreira da Silva",
-      "totalPoints": 43,
-      "sprintsActive": 4,
-      "avgPerSprint": 10.8,
-      "teamPct": 41.0,
+      "totalPoints": 55,
+      "sprintsActive": 5,
+      "avgPerSprint": 11.0,
+      "teamPct": 39.6,
       "pointsBySprint": [
         8,
         8,
         12,
-        15
+        15,
+        12
       ]
     },
     {
       "name": "Lucas Henrique da Silva de Oliveira",
-      "totalPoints": 32,
-      "sprintsActive": 4,
-      "avgPerSprint": 8.0,
-      "teamPct": 30.5,
+      "totalPoints": 41,
+      "sprintsActive": 5,
+      "avgPerSprint": 8.2,
+      "teamPct": 29.5,
       "pointsBySprint": [
         4,
         9,
         13,
-        6
+        6,
+        9
       ]
     },
     {
       "name": "Alexandre Pedrecal Campos",
-      "totalPoints": 31,
-      "sprintsActive": 4,
-      "avgPerSprint": 7.8,
-      "teamPct": 29.5,
+      "totalPoints": 37,
+      "sprintsActive": 5,
+      "avgPerSprint": 7.4,
+      "teamPct": 26.6,
       "pointsBySprint": [
         5,
         9,
         10,
-        7
+        7,
+        6
       ]
     },
     {
       "name": "Ana Santos",
-      "totalPoints": 18,
-      "sprintsActive": 4,
-      "avgPerSprint": 4.5,
-      "teamPct": 17.1,
+      "totalPoints": 24,
+      "sprintsActive": 5,
+      "avgPerSprint": 4.8,
+      "teamPct": 17.3,
       "pointsBySprint": [
         2,
         4,
         3,
-        9
+        9,
+        6
+      ]
+    },
+    {
+      "name": "Nico",
+      "totalPoints": 1,
+      "sprintsActive": 1,
+      "avgPerSprint": 1.0,
+      "teamPct": 0.7,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        1
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 70
+      "count": 88
     },
     {
       "label": "Bug",
-      "count": 11
+      "count": 14
+    },
+    {
+      "label": "Subtarefa",
+      "count": 3
     },
     {
       "label": "Spike",
@@ -123,10 +155,6 @@
     {
       "label": "História",
       "count": 2
-    },
-    {
-      "label": "Subtarefa",
-      "count": 1
     }
   ]
 }

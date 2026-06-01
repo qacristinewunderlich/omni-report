@@ -4,10 +4,10 @@
     "squadName": "Commerce",
     "boardId": 152,
     "projectKey": "SC",
-    "generatedAt": "2026-05-25",
+    "generatedAt": "2026-06-01",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1077,
+    "totalIssues": 1081,
     "totalPoints": 1786,
     "velocityAvg": 60
   },
@@ -289,7 +289,7 @@
       "end": "2026-05-02",
       "completedAt": "2026-04-22",
       "points": 84,
-      "issues": 74,
+      "issues": 76,
       "growth": 78.7
     },
     {
@@ -299,7 +299,7 @@
       "end": "2026-04-30",
       "completedAt": "2026-05-04",
       "points": 36,
-      "issues": 54,
+      "issues": 55,
       "growth": -57.1
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-05-20",
       "completedAt": "2026-05-19",
       "points": 57,
-      "issues": 45,
+      "issues": 46,
       "growth": 58.3
     }
   ],
@@ -1756,16 +1756,55 @@
         0,
         0
       ]
+    },
+    {
+      "name": "Gabriel Mazzardo",
+      "totalPoints": 0,
+      "sprintsActive": 0,
+      "avgPerSprint": 0,
+      "teamPct": 0.0,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 705
+      "count": 706
     },
     {
       "label": "Bug",
-      "count": 273
+      "count": 276
     },
     {
       "label": "Épico",
