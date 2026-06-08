@@ -4,10 +4,10 @@
     "squadName": "Copilot",
     "boardId": 216,
     "projectKey": "CP",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1142,
+    "totalIssues": 1148,
     "totalPoints": 2467,
     "velocityAvg": 82
   },
@@ -299,7 +299,7 @@
       "end": "2026-05-15",
       "completedAt": "2026-05-18",
       "points": 51,
-      "issues": 20,
+      "issues": 21,
       "growth": -36.2
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-05-29",
       "completedAt": "2026-06-01",
       "points": 78,
-      "issues": 29,
+      "issues": 34,
       "growth": 52.9
     }
   ],
@@ -355,10 +355,10 @@
     },
     {
       "name": "gustavo.pontual",
-      "totalPoints": 620,
+      "totalPoints": 637,
       "sprintsActive": 26,
-      "avgPerSprint": 23.8,
-      "teamPct": 25.1,
+      "avgPerSprint": 24.5,
+      "teamPct": 25.8,
       "pointsBySprint": [
         25,
         15,
@@ -388,8 +388,8 @@
         27,
         0,
         30,
-        18,
-        40
+        21,
+        54
       ]
     },
     {
@@ -472,10 +472,10 @@
     },
     {
       "name": "Rosines da Silva Almeida",
-      "totalPoints": 299,
+      "totalPoints": 305,
       "sprintsActive": 13,
-      "avgPerSprint": 23.0,
-      "teamPct": 12.1,
+      "avgPerSprint": 23.5,
+      "teamPct": 12.4,
       "pointsBySprint": [
         0,
         0,
@@ -506,7 +506,7 @@
         39,
         29,
         33,
-        30
+        36
       ]
     },
     {
@@ -864,7 +864,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 768
+      "count": 773
     },
     {
       "label": "Melhoria",
@@ -880,7 +880,7 @@
     },
     {
       "label": "Épico",
-      "count": 12
+      "count": 13
     }
   ]
 }

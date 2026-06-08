@@ -4,10 +4,10 @@
     "squadName": "Jornadas",
     "boardId": 889,
     "projectKey": "JNDS",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 3,
-    "totalIssues": 35,
+    "totalIssues": 37,
     "totalPoints": 99,
     "velocityAvg": 33
   },
@@ -29,7 +29,7 @@
       "end": "2026-05-08",
       "completedAt": "2026-05-11",
       "points": 32,
-      "issues": 10,
+      "issues": 11,
       "growth": 6.7
     },
     {
@@ -39,7 +39,7 @@
       "end": "2026-05-21",
       "completedAt": "2026-05-27",
       "points": 37,
-      "issues": 13,
+      "issues": 14,
       "growth": 15.6
     }
   ],
@@ -58,26 +58,26 @@
     },
     {
       "name": "gustavo.silva",
-      "totalPoints": 25,
+      "totalPoints": 28,
       "sprintsActive": 3,
-      "avgPerSprint": 8.3,
-      "teamPct": 25.3,
+      "avgPerSprint": 9.3,
+      "teamPct": 28.3,
       "pointsBySprint": [
         8,
-        10,
+        13,
         7
       ]
     },
     {
       "name": "Matheus Monteiro da Luz",
-      "totalPoints": 21,
+      "totalPoints": 24,
       "sprintsActive": 3,
-      "avgPerSprint": 7.0,
-      "teamPct": 21.2,
+      "avgPerSprint": 8.0,
+      "teamPct": 24.2,
       "pointsBySprint": [
         3,
         8,
-        10
+        13
       ]
     },
     {
@@ -96,7 +96,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 33
+      "count": 35
     },
     {
       "label": "Bug",

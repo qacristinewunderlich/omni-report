@@ -4,10 +4,10 @@
     "squadName": "After Sales",
     "boardId": 590,
     "projectKey": "AS",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 19,
-    "totalIssues": 407,
+    "totalIssues": 409,
     "totalPoints": 1053,
     "velocityAvg": 55
   },
@@ -199,17 +199,17 @@
       "end": "2026-05-28",
       "completedAt": "2026-05-29",
       "points": 64,
-      "issues": 26,
+      "issues": 28,
       "growth": -17.9
     }
   ],
   "assignees": [
     {
       "name": "Yuri de Paula Oliveira",
-      "totalPoints": 489,
+      "totalPoints": 494,
       "sprintsActive": 19,
-      "avgPerSprint": 25.7,
-      "teamPct": 46.4,
+      "avgPerSprint": 26.0,
+      "teamPct": 46.9,
       "pointsBySprint": [
         21,
         17,
@@ -229,7 +229,7 @@
         27,
         23,
         46,
-        24
+        29
       ]
     },
     {
@@ -290,10 +290,10 @@
     },
     {
       "name": "jorge.cunha",
-      "totalPoints": 61,
+      "totalPoints": 64,
       "sprintsActive": 4,
-      "avgPerSprint": 15.2,
-      "teamPct": 5.8,
+      "avgPerSprint": 16.0,
+      "teamPct": 6.1,
       "pointsBySprint": [
         0,
         0,
@@ -313,7 +313,7 @@
         11,
         19,
         22,
-        9
+        12
       ]
     },
     {
@@ -404,7 +404,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 317
+      "count": 318
     },
     {
       "label": "Subtarefa",
@@ -412,7 +412,7 @@
     },
     {
       "label": "Bug",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Spike",

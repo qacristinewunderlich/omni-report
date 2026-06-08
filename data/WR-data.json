@@ -4,24 +4,14 @@
     "squadName": "Whizz Service",
     "boardId": 218,
     "projectKey": "WR",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1007,
-    "totalPoints": 2980,
-    "velocityAvg": 99
+    "totalIssues": 1008,
+    "totalPoints": 3046,
+    "velocityAvg": 102
   },
   "sprints": [
-    {
-      "id": 2,
-      "name": "WR - Sprint 2",
-      "start": "2025-02-13",
-      "end": "2025-02-21",
-      "completedAt": "2025-02-24",
-      "points": 69,
-      "issues": 26,
-      "growth": null
-    },
     {
       "id": 3,
       "name": "WR - Sprint 3",
@@ -30,7 +20,7 @@
       "completedAt": "2025-03-10",
       "points": 87,
       "issues": 26,
-      "growth": 26.1
+      "growth": null
     },
     {
       "id": 4,
@@ -198,9 +188,9 @@
       "start": "2025-11-03",
       "end": "2025-11-14",
       "completedAt": "2025-11-14",
-      "points": 57,
+      "points": 114,
       "issues": 39,
-      "growth": -69.2
+      "growth": -38.4
     },
     {
       "id": 21,
@@ -210,7 +200,7 @@
       "completedAt": "2025-12-05",
       "points": 93,
       "issues": 42,
-      "growth": 63.2
+      "growth": -18.4
     },
     {
       "id": 22,
@@ -311,17 +301,26 @@
       "points": 108,
       "issues": 39,
       "growth": 30.1
+    },
+    {
+      "id": 32,
+      "name": "WR - Sprint 32",
+      "start": "2026-05-18",
+      "end": "2026-05-29",
+      "completedAt": "2026-06-02",
+      "points": 78,
+      "issues": 27,
+      "growth": -27.8
     }
   ],
   "assignees": [
     {
       "name": "Tiago Guatierri",
-      "totalPoints": 821,
-      "sprintsActive": 23,
-      "avgPerSprint": 35.7,
-      "teamPct": 27.6,
+      "totalPoints": 778,
+      "sprintsActive": 22,
+      "avgPerSprint": 35.4,
+      "teamPct": 25.5,
       "pointsBySprint": [
-        43,
         39,
         41,
         19,
@@ -350,17 +349,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "rafael.candido",
-      "totalPoints": 493,
-      "sprintsActive": 20,
-      "avgPerSprint": 24.6,
+      "totalPoints": 502,
+      "sprintsActive": 21,
+      "avgPerSprint": 23.9,
       "teamPct": 16.5,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -389,17 +388,17 @@
         28,
         48,
         9,
-        4
+        4,
+        9
       ]
     },
     {
       "name": "Gabriel Nunes Camargo",
-      "totalPoints": 447,
-      "sprintsActive": 14,
-      "avgPerSprint": 31.9,
-      "teamPct": 15.0,
+      "totalPoints": 472,
+      "sprintsActive": 15,
+      "avgPerSprint": 31.5,
+      "teamPct": 15.5,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -428,17 +427,17 @@
         22,
         31,
         21,
-        33
+        33,
+        25
       ]
     },
     {
       "name": "Gabriel Savio de Lima Mota",
-      "totalPoints": 445,
-      "sprintsActive": 14,
-      "avgPerSprint": 31.8,
-      "teamPct": 14.9,
+      "totalPoints": 432,
+      "sprintsActive": 13,
+      "avgPerSprint": 33.2,
+      "teamPct": 14.2,
       "pointsBySprint": [
-        13,
         25,
         40,
         31,
@@ -467,17 +466,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Kelvin Davila",
-      "totalPoints": 264,
-      "sprintsActive": 14,
-      "avgPerSprint": 18.9,
-      "teamPct": 8.9,
+      "totalPoints": 275,
+      "sprintsActive": 15,
+      "avgPerSprint": 18.3,
+      "teamPct": 9.0,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -506,17 +505,17 @@
         15,
         18,
         11,
-        29
+        29,
+        11
       ]
     },
     {
       "name": "Lucas Duarte",
-      "totalPoints": 254,
-      "sprintsActive": 15,
+      "totalPoints": 270,
+      "sprintsActive": 16,
       "avgPerSprint": 16.9,
-      "teamPct": 8.5,
+      "teamPct": 8.9,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -545,17 +544,17 @@
         21,
         24,
         32,
-        18
+        18,
+        16
       ]
     },
     {
       "name": "Lucas Costa Sousa Milhomem",
-      "totalPoints": 117,
-      "sprintsActive": 7,
-      "avgPerSprint": 16.7,
-      "teamPct": 3.9,
+      "totalPoints": 135,
+      "sprintsActive": 8,
+      "avgPerSprint": 16.9,
+      "teamPct": 4.4,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -584,7 +583,8 @@
         17,
         24,
         10,
-        24
+        24,
+        18
       ]
     },
     {
@@ -592,9 +592,8 @@
       "totalPoints": 76,
       "sprintsActive": 8,
       "avgPerSprint": 9.5,
-      "teamPct": 2.6,
+      "teamPct": 2.5,
       "pointsBySprint": [
-        0,
         0,
         0,
         3,
@@ -623,17 +622,17 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Thais Godoy",
-      "totalPoints": 75,
-      "sprintsActive": 10,
-      "avgPerSprint": 7.5,
-      "teamPct": 2.5,
+      "totalPoints": 72,
+      "sprintsActive": 9,
+      "avgPerSprint": 8.0,
+      "teamPct": 2.4,
       "pointsBySprint": [
-        3,
         6,
         8,
         0,
@@ -662,6 +661,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
@@ -670,9 +670,8 @@
       "totalPoints": 62,
       "sprintsActive": 9,
       "avgPerSprint": 6.9,
-      "teamPct": 2.1,
+      "teamPct": 2.0,
       "pointsBySprint": [
-        0,
         0,
         0,
         3,
@@ -701,21 +700,22 @@
         8,
         0,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Thiago Mandrik",
-      "totalPoints": 53,
-      "sprintsActive": 5,
-      "avgPerSprint": 10.6,
-      "teamPct": 1.8,
+      "totalPoints": 46,
+      "sprintsActive": 4,
+      "avgPerSprint": 11.5,
+      "teamPct": 1.5,
       "pointsBySprint": [
-        7,
         6,
         28,
         9,
         3,
+        0,
         0,
         0,
         0,
@@ -748,12 +748,12 @@
       "totalPoints": 35,
       "sprintsActive": 3,
       "avgPerSprint": 11.7,
-      "teamPct": 1.2,
+      "teamPct": 1.1,
       "pointsBySprint": [
-        0,
         11,
         11,
         13,
+        0,
         0,
         0,
         0,
@@ -801,10 +801,10 @@
         0,
         0,
         0,
-        0,
         9,
         12,
         12,
+        0,
         0,
         0,
         0,
@@ -830,10 +830,10 @@
       "pointsBySprint": [
         0,
         0,
+        3,
+        3,
+        3,
         0,
-        3,
-        3,
-        3,
         0,
         0,
         0,
@@ -872,11 +872,11 @@
         0,
         0,
         0,
-        0,
         3,
         3,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -917,11 +917,11 @@
         0,
         0,
         0,
-        0,
         5,
         0,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -951,7 +951,6 @@
         0,
         0,
         0,
-        0,
         3,
         0,
         0,
@@ -961,6 +960,7 @@
         0,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -996,9 +996,9 @@
         0,
         0,
         0,
+        3,
+        3,
         0,
-        3,
-        3,
         0,
         0,
         0,
@@ -1036,47 +1036,8 @@
         0,
         0,
         0,
-        0,
         3,
         3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Matheus Kroska",
-      "totalPoints": 3,
-      "sprintsActive": 1,
-      "avgPerSprint": 3.0,
-      "teamPct": 0.1,
-      "pointsBySprint": [
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -1115,8 +1076,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1154,8 +1115,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1193,8 +1154,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1215,11 +1176,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 568
+      "count": 570
     },
     {
       "label": "Bug",
-      "count": 231
+      "count": 224
     },
     {
       "label": "Épico",
@@ -1227,19 +1188,19 @@
     },
     {
       "label": "Spike",
-      "count": 52
+      "count": 54
     },
     {
       "label": "Melhoria",
-      "count": 4
-    },
-    {
-      "label": "História",
-      "count": 2
+      "count": 9
     },
     {
       "label": "Subtarefa",
       "count": 2
+    },
+    {
+      "label": "História",
+      "count": 1
     }
   ]
 }

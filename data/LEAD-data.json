@@ -4,10 +4,10 @@
     "squadName": "Inbound",
     "boardId": 156,
     "projectKey": "LEAD",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 981,
+    "totalIssues": 982,
     "totalPoints": 1485,
     "velocityAvg": 50
   },
@@ -309,7 +309,7 @@
       "end": "2026-05-22",
       "completedAt": "2026-05-22",
       "points": 46,
-      "issues": 25,
+      "issues": 26,
       "growth": -20.7
     }
   ],
@@ -511,10 +511,10 @@
     },
     {
       "name": "Carlos Alexandre Leite Vieira",
-      "totalPoints": 152,
+      "totalPoints": 154,
       "sprintsActive": 24,
-      "avgPerSprint": 6.3,
-      "teamPct": 10.2,
+      "avgPerSprint": 6.4,
+      "teamPct": 10.4,
       "pointsBySprint": [
         0,
         0,
@@ -545,7 +545,7 @@
         0,
         0,
         11,
-        7
+        9
       ]
     },
     {
@@ -712,7 +712,7 @@
     },
     {
       "label": "Spike",
-      "count": 162
+      "count": 163
     },
     {
       "label": "Melhoria",

@@ -4,10 +4,10 @@
     "squadName": "CRM",
     "boardId": 955,
     "projectKey": "IC",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 5,
-    "totalIssues": 109,
+    "totalIssues": 110,
     "totalPoints": 139,
     "velocityAvg": 28
   },
@@ -59,7 +59,7 @@
       "end": "2026-05-22",
       "completedAt": "2026-05-26",
       "points": 34,
-      "issues": 23,
+      "issues": 24,
       "growth": 13.3
     }
   ],
@@ -80,16 +80,16 @@
     },
     {
       "name": "Lucas Henrique da Silva de Oliveira",
-      "totalPoints": 41,
+      "totalPoints": 43,
       "sprintsActive": 5,
-      "avgPerSprint": 8.2,
-      "teamPct": 29.5,
+      "avgPerSprint": 8.6,
+      "teamPct": 30.9,
       "pointsBySprint": [
         4,
         9,
         13,
         6,
-        9
+        11
       ]
     },
     {
@@ -155,6 +155,10 @@
     {
       "label": "História",
       "count": 2
+    },
+    {
+      "label": "Melhoria",
+      "count": 1
     }
   ]
 }

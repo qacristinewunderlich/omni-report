@@ -4,10 +4,10 @@
     "squadName": "Sales",
     "boardId": 220,
     "projectKey": "SAL",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 927,
+    "totalIssues": 931,
     "totalPoints": 2493,
     "velocityAvg": 83
   },
@@ -309,17 +309,17 @@
       "end": "2026-05-28",
       "completedAt": "2026-05-29",
       "points": 136,
-      "issues": 44,
+      "issues": 48,
       "growth": 94.3
     }
   ],
   "assignees": [
     {
       "name": "Lucas Viana",
-      "totalPoints": 901,
+      "totalPoints": 904,
       "sprintsActive": 29,
-      "avgPerSprint": 31.1,
-      "teamPct": 36.1,
+      "avgPerSprint": 31.2,
+      "teamPct": 36.3,
       "pointsBySprint": [
         33,
         28,
@@ -350,15 +350,15 @@
         38,
         1,
         7,
-        44
+        47
       ]
     },
     {
       "name": "Luís Marchi",
-      "totalPoints": 653,
+      "totalPoints": 656,
       "sprintsActive": 23,
-      "avgPerSprint": 28.4,
-      "teamPct": 26.2,
+      "avgPerSprint": 28.5,
+      "teamPct": 26.3,
       "pointsBySprint": [
         0,
         15,
@@ -389,7 +389,7 @@
         37,
         31,
         10,
-        22
+        25
       ]
     },
     {
@@ -589,10 +589,10 @@
     },
     {
       "name": "Carlos Machado",
-      "totalPoints": 47,
+      "totalPoints": 51,
       "sprintsActive": 3,
-      "avgPerSprint": 15.7,
-      "teamPct": 1.9,
+      "avgPerSprint": 17.0,
+      "teamPct": 2.0,
       "pointsBySprint": [
         0,
         0,
@@ -623,7 +623,7 @@
         0,
         11,
         25,
-        11
+        15
       ]
     },
     {
@@ -1141,7 +1141,7 @@
     },
     {
       "label": "Bug",
-      "count": 379
+      "count": 383
     },
     {
       "label": "Spike",

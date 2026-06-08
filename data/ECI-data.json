@@ -4,10 +4,10 @@
     "squadName": "Outbound",
     "boardId": 162,
     "projectKey": "ECI",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1036,
+    "totalIssues": 1037,
     "totalPoints": 1336,
     "velocityAvg": 45
   },
@@ -309,7 +309,7 @@
       "end": "2026-05-22",
       "completedAt": "2026-05-25",
       "points": 24,
-      "issues": 22,
+      "issues": 23,
       "growth": -51.0
     }
   ],
@@ -394,10 +394,10 @@
     },
     {
       "name": "Luis Eduardo Borochok Oliveira",
-      "totalPoints": 194,
+      "totalPoints": 197,
       "sprintsActive": 24,
-      "avgPerSprint": 8.1,
-      "teamPct": 14.5,
+      "avgPerSprint": 8.2,
+      "teamPct": 14.7,
       "pointsBySprint": [
         7,
         11,
@@ -428,7 +428,7 @@
         8,
         6,
         9,
-        11
+        14
       ]
     },
     {
@@ -1020,7 +1020,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 618
+      "count": 619
     },
     {
       "label": "Spike",

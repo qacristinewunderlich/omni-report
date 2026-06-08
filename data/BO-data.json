@@ -4,24 +4,14 @@
     "squadName": "CloudOps",
     "boardId": 133,
     "projectKey": "BO",
-    "generatedAt": "2026-06-01",
+    "generatedAt": "2026-06-08",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
     "totalIssues": 1161,
-    "totalPoints": 2479,
-    "velocityAvg": 83
+    "totalPoints": 2516,
+    "velocityAvg": 84
   },
   "sprints": [
-    {
-      "id": 55,
-      "name": "BOT: Sprint 55",
-      "start": "2025-03-18",
-      "end": "2025-03-28",
-      "completedAt": "2025-03-28",
-      "points": 104,
-      "issues": 45,
-      "growth": null
-    },
     {
       "id": 56,
       "name": "BOT: Sprint 56",
@@ -30,7 +20,7 @@
       "completedAt": "2025-04-11",
       "points": 88,
       "issues": 39,
-      "growth": -15.4
+      "growth": null
     },
     {
       "id": 57,
@@ -198,9 +188,9 @@
       "start": "2025-11-24",
       "end": "2025-12-12",
       "completedAt": "2025-12-12",
-      "points": 102,
+      "points": 115,
       "issues": 55,
-      "growth": 4.1
+      "growth": 17.3
     },
     {
       "id": 74,
@@ -210,7 +200,7 @@
       "completedAt": "2025-12-29",
       "points": 46,
       "issues": 28,
-      "growth": -54.9
+      "growth": -60.0
     },
     {
       "id": 75,
@@ -311,17 +301,26 @@
       "points": 85,
       "issues": 34,
       "growth": 19.7
+    },
+    {
+      "id": 85,
+      "name": "BOT: Sprint 85",
+      "start": "2026-05-25",
+      "end": "2026-06-05",
+      "completedAt": "2026-06-05",
+      "points": 128,
+      "issues": 45,
+      "growth": 50.6
     }
   ],
   "assignees": [
     {
       "name": "Lucas Juliano Schek",
-      "totalPoints": 1097,
+      "totalPoints": 1094,
       "sprintsActive": 30,
-      "avgPerSprint": 36.6,
-      "teamPct": 44.3,
+      "avgPerSprint": 36.5,
+      "teamPct": 43.5,
       "pointsBySprint": [
-        46,
         41,
         36,
         35,
@@ -350,17 +349,17 @@
         52,
         23,
         20,
-        20
+        20,
+        43
       ]
     },
     {
       "name": "Andre de Leles e Souza",
-      "totalPoints": 895,
+      "totalPoints": 861,
       "sprintsActive": 30,
-      "avgPerSprint": 29.8,
-      "teamPct": 36.1,
+      "avgPerSprint": 28.7,
+      "teamPct": 34.2,
       "pointsBySprint": [
-        39,
         35,
         49,
         39,
@@ -389,17 +388,17 @@
         22,
         12,
         7,
-        9
+        9,
+        5
       ]
     },
     {
       "name": "Rodrigo Bitu de Moraes",
-      "totalPoints": 610,
-      "sprintsActive": 18,
-      "avgPerSprint": 33.9,
-      "teamPct": 24.6,
+      "totalPoints": 690,
+      "sprintsActive": 19,
+      "avgPerSprint": 36.3,
+      "teamPct": 27.4,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -428,21 +427,22 @@
         45,
         44,
         54,
-        56
+        56,
+        80
       ]
     },
     {
       "name": "Vinícius Araujo",
-      "totalPoints": 54,
-      "sprintsActive": 5,
-      "avgPerSprint": 10.8,
-      "teamPct": 2.2,
+      "totalPoints": 35,
+      "sprintsActive": 4,
+      "avgPerSprint": 8.8,
+      "teamPct": 1.4,
       "pointsBySprint": [
-        19,
         12,
         5,
         9,
         9,
+        0,
         0,
         0,
         0,
@@ -488,7 +488,6 @@
         0,
         0,
         0,
-        0,
         3,
         0,
         0,
@@ -498,6 +497,7 @@
         0,
         0,
         6,
+        0,
         0,
         0,
         0,
@@ -516,7 +516,6 @@
       "avgPerSprint": 4.0,
       "teamPct": 0.2,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -545,6 +544,7 @@
         0,
         0,
         0,
+        0,
         0
       ]
     }
@@ -552,23 +552,23 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 979
+      "count": 985
     },
     {
       "label": "Solicitação de Acesso",
-      "count": 115
+      "count": 114
     },
     {
       "label": "Spike",
-      "count": 49
-    },
-    {
-      "label": "Subtarefa",
-      "count": 10
+      "count": 46
     },
     {
       "label": "Bug",
-      "count": 7
+      "count": 9
+    },
+    {
+      "label": "Subtarefa",
+      "count": 6
     },
     {
       "label": "Degradação",
