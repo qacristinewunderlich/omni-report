@@ -4,10 +4,10 @@
     "squadName": "Dados",
     "boardId": 260,
     "projectKey": "SD",
-    "generatedAt": "2026-06-08",
+    "generatedAt": "2026-06-15",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1034,
+    "totalIssues": 1036,
     "totalPoints": 2949,
     "velocityAvg": 98
   },
@@ -309,7 +309,7 @@
       "end": "2026-06-07",
       "completedAt": "2026-06-08",
       "points": 142,
-      "issues": 52,
+      "issues": 54,
       "growth": -9.0
     }
   ],
@@ -511,10 +511,10 @@
     },
     {
       "name": "elias.arcuri",
-      "totalPoints": 144,
+      "totalPoints": 148,
       "sprintsActive": 6,
-      "avgPerSprint": 24.0,
-      "teamPct": 4.9,
+      "avgPerSprint": 24.7,
+      "teamPct": 5.0,
       "pointsBySprint": [
         0,
         0,
@@ -545,7 +545,7 @@
         26,
         0,
         24,
-        26
+        30
       ]
     },
     {
@@ -627,6 +627,45 @@
       ]
     },
     {
+      "name": "Sandy Ng",
+      "totalPoints": 102,
+      "sprintsActive": 4,
+      "avgPerSprint": 25.5,
+      "teamPct": 3.5,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        22,
+        0,
+        33,
+        28
+      ]
+    },
+    {
       "name": "jefferson.santos",
       "totalPoints": 100,
       "sprintsActive": 6,
@@ -663,45 +702,6 @@
         0,
         0,
         0
-      ]
-    },
-    {
-      "name": "Sandy Ng",
-      "totalPoints": 100,
-      "sprintsActive": 4,
-      "avgPerSprint": 25.0,
-      "teamPct": 3.4,
-      "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        19,
-        22,
-        0,
-        33,
-        26
       ]
     },
     {
@@ -1449,7 +1449,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 839
+      "count": 841
     },
     {
       "label": "Bug",

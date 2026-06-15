@@ -4,10 +4,10 @@
     "squadName": "CloudOps",
     "boardId": 133,
     "projectKey": "BO",
-    "generatedAt": "2026-06-08",
+    "generatedAt": "2026-06-15",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1161,
+    "totalIssues": 1163,
     "totalPoints": 2516,
     "velocityAvg": 84
   },
@@ -309,14 +309,14 @@
       "end": "2026-06-05",
       "completedAt": "2026-06-05",
       "points": 128,
-      "issues": 45,
+      "issues": 47,
       "growth": 50.6
     }
   ],
   "assignees": [
     {
       "name": "Lucas Juliano Schek",
-      "totalPoints": 1094,
+      "totalPoints": 1095,
       "sprintsActive": 30,
       "avgPerSprint": 36.5,
       "teamPct": 43.5,
@@ -350,7 +350,7 @@
         23,
         20,
         20,
-        43
+        44
       ]
     },
     {
@@ -394,10 +394,10 @@
     },
     {
       "name": "Rodrigo Bitu de Moraes",
-      "totalPoints": 690,
+      "totalPoints": 693,
       "sprintsActive": 19,
-      "avgPerSprint": 36.3,
-      "teamPct": 27.4,
+      "avgPerSprint": 36.5,
+      "teamPct": 27.5,
       "pointsBySprint": [
         0,
         0,
@@ -428,7 +428,7 @@
         44,
         54,
         56,
-        80
+        83
       ]
     },
     {
@@ -552,7 +552,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 985
+      "count": 987
     },
     {
       "label": "Solicitação de Acesso",

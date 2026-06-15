@@ -4,10 +4,10 @@
     "squadName": "Whizz Core",
     "boardId": 219,
     "projectKey": "WC",
-    "generatedAt": "2026-06-08",
+    "generatedAt": "2026-06-15",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1018,
+    "totalIssues": 1019,
     "totalPoints": 2603,
     "velocityAvg": 87
   },
@@ -309,17 +309,17 @@
       "end": "2026-05-14",
       "completedAt": "2026-05-15",
       "points": 71,
-      "issues": 42,
+      "issues": 43,
       "growth": -5.3
     }
   ],
   "assignees": [
     {
       "name": "Thiago Vinicius Veiga",
-      "totalPoints": 533,
+      "totalPoints": 536,
       "sprintsActive": 26,
-      "avgPerSprint": 20.5,
-      "teamPct": 20.5,
+      "avgPerSprint": 20.6,
+      "teamPct": 20.6,
       "pointsBySprint": [
         3,
         8,
@@ -350,7 +350,7 @@
         54,
         28,
         0,
-        22
+        25
       ]
     },
     {
@@ -1410,7 +1410,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 638
+      "count": 639
     },
     {
       "label": "Bug",

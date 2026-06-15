@@ -4,12 +4,12 @@
     "squadName": "After Sales",
     "boardId": 590,
     "projectKey": "AS",
-    "generatedAt": "2026-06-08",
+    "generatedAt": "2026-06-15",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 19,
-    "totalIssues": 409,
-    "totalPoints": 1053,
-    "velocityAvg": 55
+    "totalSprints": 20,
+    "totalIssues": 436,
+    "totalPoints": 1138,
+    "velocityAvg": 57
   },
   "sprints": [
     {
@@ -88,9 +88,9 @@
       "start": "2025-11-04",
       "end": "2025-11-13",
       "completedAt": "2025-11-17",
-      "points": 45,
+      "points": 62,
       "issues": 19,
-      "growth": -13.5
+      "growth": 19.2
     },
     {
       "id": 9,
@@ -100,7 +100,7 @@
       "completedAt": "2025-12-22",
       "points": 54,
       "issues": 24,
-      "growth": 20.0
+      "growth": -12.9
     },
     {
       "id": 10,
@@ -201,15 +201,25 @@
       "points": 64,
       "issues": 28,
       "growth": -17.9
+    },
+    {
+      "id": 20,
+      "name": "Sprint 20",
+      "start": "2026-06-02",
+      "end": "2026-06-11",
+      "completedAt": "2026-06-12",
+      "points": 68,
+      "issues": 27,
+      "growth": 6.2
     }
   ],
   "assignees": [
     {
       "name": "Yuri de Paula Oliveira",
-      "totalPoints": 494,
-      "sprintsActive": 19,
-      "avgPerSprint": 26.0,
-      "teamPct": 46.9,
+      "totalPoints": 517,
+      "sprintsActive": 20,
+      "avgPerSprint": 25.9,
+      "teamPct": 45.4,
       "pointsBySprint": [
         21,
         17,
@@ -229,15 +239,16 @@
         27,
         23,
         46,
-        29
+        29,
+        23
       ]
     },
     {
       "name": "Marlon Carvalho",
-      "totalPoints": 266,
-      "sprintsActive": 13,
-      "avgPerSprint": 20.5,
-      "teamPct": 25.3,
+      "totalPoints": 284,
+      "sprintsActive": 14,
+      "avgPerSprint": 20.3,
+      "teamPct": 25.0,
       "pointsBySprint": [
         0,
         0,
@@ -257,15 +268,16 @@
         26,
         0,
         0,
-        16
+        16,
+        18
       ]
     },
     {
       "name": "Gabriel Mazzardo",
-      "totalPoints": 225,
-      "sprintsActive": 18,
-      "avgPerSprint": 12.5,
-      "teamPct": 21.4,
+      "totalPoints": 233,
+      "sprintsActive": 19,
+      "avgPerSprint": 12.3,
+      "teamPct": 20.5,
       "pointsBySprint": [
         10,
         14,
@@ -285,15 +297,16 @@
         6,
         15,
         4,
-        13
+        13,
+        8
       ]
     },
     {
       "name": "jorge.cunha",
-      "totalPoints": 64,
-      "sprintsActive": 4,
-      "avgPerSprint": 16.0,
-      "teamPct": 6.1,
+      "totalPoints": 81,
+      "sprintsActive": 5,
+      "avgPerSprint": 16.2,
+      "teamPct": 7.1,
       "pointsBySprint": [
         0,
         0,
@@ -313,7 +326,8 @@
         11,
         19,
         22,
-        12
+        12,
+        17
       ]
     },
     {
@@ -321,7 +335,7 @@
       "totalPoints": 50,
       "sprintsActive": 10,
       "avgPerSprint": 5.0,
-      "teamPct": 4.7,
+      "teamPct": 4.4,
       "pointsBySprint": [
         0,
         0,
@@ -341,6 +355,7 @@
         6,
         9,
         6,
+        0,
         0
       ]
     },
@@ -349,7 +364,7 @@
       "totalPoints": 25,
       "sprintsActive": 6,
       "avgPerSprint": 4.2,
-      "teamPct": 2.4,
+      "teamPct": 2.2,
       "pointsBySprint": [
         3,
         0,
@@ -369,15 +384,16 @@
         0,
         0,
         0,
-        5
+        5,
+        0
       ]
     },
     {
       "name": "Não atribuído",
-      "totalPoints": 6,
-      "sprintsActive": 2,
-      "avgPerSprint": 3.0,
-      "teamPct": 0.6,
+      "totalPoints": 8,
+      "sprintsActive": 3,
+      "avgPerSprint": 2.7,
+      "teamPct": 0.7,
       "pointsBySprint": [
         0,
         0,
@@ -397,26 +413,27 @@
         0,
         0,
         0,
-        0
+        0,
+        2
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 318
+      "count": 337
     },
     {
       "label": "Subtarefa",
-      "count": 48
+      "count": 51
     },
     {
       "label": "Bug",
-      "count": 26
+      "count": 30
     },
     {
       "label": "Spike",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Épico",

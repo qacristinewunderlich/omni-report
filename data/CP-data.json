@@ -4,24 +4,14 @@
     "squadName": "Copilot",
     "boardId": 216,
     "projectKey": "CP",
-    "generatedAt": "2026-06-08",
+    "generatedAt": "2026-06-15",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1148,
-    "totalPoints": 2467,
-    "velocityAvg": 82
+    "totalIssues": 1085,
+    "totalPoints": 2417,
+    "velocityAvg": 81
   },
   "sprints": [
-    {
-      "id": 5,
-      "name": "Sprint 05 | Copilot",
-      "start": "2025-03-24",
-      "end": "2025-04-04",
-      "completedAt": "2025-04-07",
-      "points": 113,
-      "issues": 50,
-      "growth": null
-    },
     {
       "id": 6,
       "name": "Sprint 06 | Copilot",
@@ -30,7 +20,7 @@
       "completedAt": "2025-04-22",
       "points": 75,
       "issues": 42,
-      "growth": -33.6
+      "growth": null
     },
     {
       "id": 7,
@@ -38,9 +28,9 @@
       "start": "2025-04-22",
       "end": "2025-05-02",
       "completedAt": "2025-05-05",
-      "points": 66,
-      "issues": 37,
-      "growth": -12.0
+      "points": 60,
+      "issues": 34,
+      "growth": -20.0
     },
     {
       "id": 8,
@@ -48,9 +38,9 @@
       "start": "2025-05-05",
       "end": "2025-05-15",
       "completedAt": "2025-05-19",
-      "points": 57,
-      "issues": 31,
-      "growth": -13.6
+      "points": 56,
+      "issues": 30,
+      "growth": -6.7
     },
     {
       "id": 9,
@@ -58,9 +48,9 @@
       "start": "2025-05-19",
       "end": "2025-05-30",
       "completedAt": "2025-06-02",
-      "points": 80,
-      "issues": 42,
-      "growth": 40.4
+      "points": 75,
+      "issues": 38,
+      "growth": 33.9
     },
     {
       "id": 10,
@@ -68,9 +58,9 @@
       "start": "2025-06-02",
       "end": "2025-06-13",
       "completedAt": "2025-06-16",
-      "points": 84,
-      "issues": 34,
-      "growth": 5.0
+      "points": 74,
+      "issues": 30,
+      "growth": -1.3
     },
     {
       "id": 11,
@@ -80,7 +70,7 @@
       "completedAt": "2025-06-30",
       "points": 79,
       "issues": 33,
-      "growth": -6.0
+      "growth": 6.8
     },
     {
       "id": 12,
@@ -88,9 +78,9 @@
       "start": "2025-06-30",
       "end": "2025-07-11",
       "completedAt": "2025-07-14",
-      "points": 95,
-      "issues": 38,
-      "growth": 20.3
+      "points": 92,
+      "issues": 36,
+      "growth": 16.5
     },
     {
       "id": 13,
@@ -98,9 +88,9 @@
       "start": "2025-07-14",
       "end": "2025-07-25",
       "completedAt": "2025-07-25",
-      "points": 113,
-      "issues": 44,
-      "growth": 18.9
+      "points": 104,
+      "issues": 41,
+      "growth": 13.0
     },
     {
       "id": 14,
@@ -108,8 +98,8 @@
       "start": "2025-07-28",
       "end": "2025-08-08",
       "completedAt": "2025-08-11",
-      "points": 100,
-      "issues": 36,
+      "points": 92,
+      "issues": 33,
       "growth": -11.5
     },
     {
@@ -119,8 +109,8 @@
       "end": "2025-08-22",
       "completedAt": "2025-08-25",
       "points": 83,
-      "issues": 41,
-      "growth": -17.0
+      "issues": 38,
+      "growth": -9.8
     },
     {
       "id": 16,
@@ -138,9 +128,9 @@
       "start": "2025-09-08",
       "end": "2025-09-19",
       "completedAt": "2025-09-22",
-      "points": 81,
-      "issues": 29,
-      "growth": -3.6
+      "points": 80,
+      "issues": 28,
+      "growth": -4.8
     },
     {
       "id": 18,
@@ -148,9 +138,9 @@
       "start": "2025-09-22",
       "end": "2025-10-03",
       "completedAt": "2025-10-06",
-      "points": 76,
-      "issues": 37,
-      "growth": -6.2
+      "points": 70,
+      "issues": 34,
+      "growth": -12.5
     },
     {
       "id": 18,
@@ -160,7 +150,7 @@
       "completedAt": "2025-10-03",
       "points": 105,
       "issues": 33,
-      "growth": 38.2
+      "growth": 50.0
     },
     {
       "id": 19,
@@ -178,9 +168,9 @@
       "start": "2025-10-20",
       "end": "2025-10-31",
       "completedAt": "2025-11-03",
-      "points": 99,
-      "issues": 41,
-      "growth": 25.3
+      "points": 97,
+      "issues": 39,
+      "growth": 22.8
     },
     {
       "id": 21,
@@ -190,7 +180,7 @@
       "completedAt": "2025-11-17",
       "points": 69,
       "issues": 18,
-      "growth": -30.3
+      "growth": -28.9
     },
     {
       "id": 25,
@@ -199,7 +189,7 @@
       "end": "2025-11-30",
       "completedAt": "2026-02-09",
       "points": 77,
-      "issues": 55,
+      "issues": 52,
       "growth": 11.6
     },
     {
@@ -208,9 +198,9 @@
       "start": "2025-12-09",
       "end": "2025-12-19",
       "completedAt": "2025-12-22",
-      "points": 75,
+      "points": 109,
       "issues": 42,
-      "growth": -2.6
+      "growth": 41.6
     },
     {
       "id": 1,
@@ -219,8 +209,8 @@
       "end": "2026-01-16",
       "completedAt": "2026-01-19",
       "points": 102,
-      "issues": 51,
-      "growth": 36.0
+      "issues": 50,
+      "growth": -6.4
     },
     {
       "id": 26,
@@ -239,7 +229,7 @@
       "end": "2026-02-20",
       "completedAt": "2026-02-23",
       "points": 57,
-      "issues": 35,
+      "issues": 34,
       "growth": -35.2
     },
     {
@@ -259,7 +249,7 @@
       "end": "2026-03-20",
       "completedAt": "2026-03-23",
       "points": 85,
-      "issues": 46,
+      "issues": 41,
       "growth": 23.2
     },
     {
@@ -309,63 +299,33 @@
       "end": "2026-05-29",
       "completedAt": "2026-06-01",
       "points": 78,
-      "issues": 34,
+      "issues": 36,
       "growth": 52.9
+    },
+    {
+      "id": 10,
+      "name": "Sprint 10",
+      "start": "2026-06-01",
+      "end": "2026-06-12",
+      "completedAt": "2026-06-15",
+      "points": 80,
+      "issues": 24,
+      "growth": 2.6
     }
   ],
   "assignees": [
     {
-      "name": "Italo Francisco Magdalena",
-      "totalPoints": 644,
-      "sprintsActive": 23,
-      "avgPerSprint": 28.0,
-      "teamPct": 26.1,
-      "pointsBySprint": [
-        31,
-        20,
-        23,
-        18,
-        26,
-        25,
-        24,
-        27,
-        38,
-        18,
-        15,
-        26,
-        28,
-        27,
-        0,
-        25,
-        28,
-        33,
-        39,
-        51,
-        43,
-        36,
-        17,
-        0,
-        26,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
       "name": "gustavo.pontual",
-      "totalPoints": 637,
+      "totalPoints": 641,
       "sprintsActive": 26,
-      "avgPerSprint": 24.5,
-      "teamPct": 25.8,
+      "avgPerSprint": 24.7,
+      "teamPct": 26.5,
       "pointsBySprint": [
-        25,
         15,
         16,
-        16,
+        15,
         0,
-        30,
+        24,
         31,
         32,
         28,
@@ -373,7 +333,7 @@
         25,
         19,
         20,
-        27,
+        25,
         0,
         21,
         28,
@@ -389,17 +349,95 @@
         0,
         30,
         21,
-        54
+        59,
+        33
+      ]
+    },
+    {
+      "name": "Italo Francisco Magdalena",
+      "totalPoints": 580,
+      "sprintsActive": 22,
+      "avgPerSprint": 26.4,
+      "teamPct": 24.0,
+      "pointsBySprint": [
+        20,
+        17,
+        18,
+        23,
+        21,
+        24,
+        24,
+        32,
+        10,
+        15,
+        26,
+        28,
+        25,
+        0,
+        25,
+        28,
+        33,
+        38,
+        51,
+        43,
+        36,
+        17,
+        0,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rosines da Silva Almeida",
+      "totalPoints": 335,
+      "sprintsActive": 12,
+      "avgPerSprint": 27.9,
+      "teamPct": 13.9,
+      "pointsBySprint": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        27,
+        25,
+        19,
+        21,
+        25,
+        33,
+        39,
+        29,
+        33,
+        36,
+        32
       ]
     },
     {
       "name": "Alexander Dorow",
-      "totalPoints": 314,
+      "totalPoints": 310,
       "sprintsActive": 25,
-      "avgPerSprint": 12.6,
-      "teamPct": 12.7,
+      "avgPerSprint": 12.4,
+      "teamPct": 12.8,
       "pointsBySprint": [
-        18,
         4,
         3,
         0,
@@ -412,10 +450,10 @@
         7,
         1,
         0,
-        8,
+        6,
         0,
         31,
-        22,
+        20,
         12,
         2,
         6,
@@ -428,17 +466,17 @@
         43,
         13,
         0,
-        5
+        8,
+        15
       ]
     },
     {
       "name": "Samoel Dametto",
-      "totalPoints": 305,
-      "sprintsActive": 26,
+      "totalPoints": 292,
+      "sprintsActive": 25,
       "avgPerSprint": 11.7,
-      "teamPct": 12.4,
+      "teamPct": 12.1,
       "pointsBySprint": [
-        10,
         15,
         8,
         2,
@@ -460,22 +498,23 @@
         16,
         0,
         10,
-        11,
+        8,
         17,
         20,
         3,
         22,
         13,
         0,
-        3
+        3,
+        0
       ]
     },
     {
-      "name": "Rosines da Silva Almeida",
-      "totalPoints": 305,
-      "sprintsActive": 13,
-      "avgPerSprint": 23.5,
-      "teamPct": 12.4,
+      "name": "lucas.murta",
+      "totalPoints": 139,
+      "sprintsActive": 6,
+      "avgPerSprint": 23.2,
+      "teamPct": 5.8,
       "pointsBySprint": [
         0,
         0,
@@ -483,51 +522,12 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        16,
-        27,
-        25,
-        19,
-        21,
-        25,
+        22,
         33,
-        39,
-        29,
-        33,
-        36
-      ]
-    },
-    {
-      "name": "Usuário inativo",
-      "totalPoints": 140,
-      "sprintsActive": 7,
-      "avgPerSprint": 20.0,
-      "teamPct": 5.7,
-      "pointsBySprint": [
-        29,
-        21,
-        16,
-        21,
-        24,
-        18,
-        11,
-        0,
-        0,
-        0,
-        0,
-        0,
+        30,
+        26,
+        23,
+        5,
         0,
         0,
         0,
@@ -549,25 +549,25 @@
       ]
     },
     {
-      "name": "lucas.murta",
-      "totalPoints": 139,
+      "name": "Usuário inativo",
+      "totalPoints": 109,
       "sprintsActive": 6,
-      "avgPerSprint": 23.2,
-      "teamPct": 5.6,
+      "avgPerSprint": 18.2,
+      "teamPct": 4.5,
       "pointsBySprint": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        21,
+        16,
+        21,
         22,
-        33,
-        30,
-        26,
-        23,
-        5,
+        18,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -592,9 +592,8 @@
       "totalPoints": 40,
       "sprintsActive": 2,
       "avgPerSprint": 20.0,
-      "teamPct": 1.6,
+      "teamPct": 1.7,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -609,6 +608,7 @@
         3,
         0,
         37,
+        0,
         0,
         0,
         0,
@@ -646,8 +646,8 @@
         0,
         0,
         0,
-        0,
         35,
+        0,
         0,
         0,
         0,
@@ -685,8 +685,8 @@
         0,
         0,
         0,
-        0,
         21,
+        0,
         0,
         0,
         0,
@@ -706,12 +706,11 @@
     },
     {
       "name": "Não atribuído",
-      "totalPoints": 16,
-      "sprintsActive": 5,
+      "totalPoints": 13,
+      "sprintsActive": 4,
       "avgPerSprint": 3.2,
-      "teamPct": 0.6,
+      "teamPct": 0.5,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -719,7 +718,7 @@
         0,
         2,
         0,
-        3,
+        0,
         0,
         0,
         0,
@@ -732,6 +731,7 @@
         9,
         0,
         1,
+        0,
         0,
         0,
         0,
@@ -763,8 +763,8 @@
         0,
         0,
         0,
-        0,
         10,
+        0,
         0,
         0,
         0,
@@ -801,8 +801,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -841,8 +841,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         0,
         0,
         0,
@@ -864,23 +864,23 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 773
+      "count": 735
     },
     {
       "label": "Melhoria",
-      "count": 180
+      "count": 171
     },
     {
       "label": "Bug",
-      "count": 128
+      "count": 115
     },
     {
       "label": "Spike",
-      "count": 54
+      "count": 50
     },
     {
       "label": "Épico",
-      "count": 13
+      "count": 14
     }
   ]
 }
