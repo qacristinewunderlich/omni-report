@@ -4,10 +4,10 @@
     "squadName": "Outbound",
     "boardId": 162,
     "projectKey": "ECI",
-    "generatedAt": "2026-06-15",
+    "generatedAt": "2026-06-22",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1038,
+    "totalIssues": 1039,
     "totalPoints": 1336,
     "velocityAvg": 45
   },
@@ -309,7 +309,7 @@
       "end": "2026-05-22",
       "completedAt": "2026-05-25",
       "points": 24,
-      "issues": 24,
+      "issues": 25,
       "growth": -51.0
     }
   ],
@@ -1020,7 +1020,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 620
+      "count": 621
     },
     {
       "label": "Spike",

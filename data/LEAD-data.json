@@ -4,10 +4,10 @@
     "squadName": "Inbound",
     "boardId": 156,
     "projectKey": "LEAD",
-    "generatedAt": "2026-06-15",
+    "generatedAt": "2026-06-22",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 982,
+    "totalIssues": 984,
     "totalPoints": 1485,
     "velocityAvg": 50
   },
@@ -269,7 +269,7 @@
       "end": "2026-03-27",
       "completedAt": "2026-03-27",
       "points": 30,
-      "issues": 26,
+      "issues": 28,
       "growth": -42.3
     },
     {
@@ -550,10 +550,10 @@
     },
     {
       "name": "Arthur Pereira Machado",
-      "totalPoints": 80,
+      "totalPoints": 82,
       "sprintsActive": 11,
-      "avgPerSprint": 7.3,
-      "teamPct": 5.4,
+      "avgPerSprint": 7.5,
+      "teamPct": 5.5,
       "pointsBySprint": [
         0,
         0,
@@ -580,7 +580,7 @@
         5,
         5,
         8,
-        8,
+        10,
         11,
         13,
         6,
@@ -589,10 +589,10 @@
     },
     {
       "name": "mauricio.silva",
-      "totalPoints": 67,
+      "totalPoints": 69,
       "sprintsActive": 8,
-      "avgPerSprint": 8.4,
-      "teamPct": 4.5,
+      "avgPerSprint": 8.6,
+      "teamPct": 4.6,
       "pointsBySprint": [
         0,
         0,
@@ -619,7 +619,7 @@
         0,
         4,
         9,
-        9,
+        11,
         13,
         12,
         8,
@@ -708,7 +708,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 649
+      "count": 651
     },
     {
       "label": "Spike",

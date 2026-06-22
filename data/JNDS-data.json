@@ -4,11 +4,11 @@
     "squadName": "Jornadas",
     "boardId": 889,
     "projectKey": "JNDS",
-    "generatedAt": "2026-06-15",
+    "generatedAt": "2026-06-22",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 4,
-    "totalIssues": 50,
-    "totalPoints": 121,
+    "totalSprints": 5,
+    "totalIssues": 64,
+    "totalPoints": 151,
     "velocityAvg": 30
   },
   "sprints": [
@@ -51,66 +51,80 @@
       "points": 22,
       "issues": 13,
       "growth": -40.5
+    },
+    {
+      "id": 5,
+      "name": "Sprint 5",
+      "start": "2026-06-09",
+      "end": "2026-06-19",
+      "completedAt": "2026-06-22",
+      "points": 30,
+      "issues": 14,
+      "growth": 36.4
     }
   ],
   "assignees": [
     {
       "name": "Matheus Kroska",
-      "totalPoints": 42,
-      "sprintsActive": 4,
-      "avgPerSprint": 10.5,
-      "teamPct": 34.7,
+      "totalPoints": 54,
+      "sprintsActive": 5,
+      "avgPerSprint": 10.8,
+      "teamPct": 35.8,
       "pointsBySprint": [
         11,
         9,
         15,
-        7
-      ]
-    },
-    {
-      "name": "gustavo.silva",
-      "totalPoints": 32,
-      "sprintsActive": 4,
-      "avgPerSprint": 8.0,
-      "teamPct": 26.4,
-      "pointsBySprint": [
-        8,
-        13,
         7,
-        4
+        12
       ]
     },
     {
       "name": "Matheus Monteiro da Luz",
-      "totalPoints": 31,
-      "sprintsActive": 4,
-      "avgPerSprint": 7.8,
-      "teamPct": 25.6,
+      "totalPoints": 41,
+      "sprintsActive": 5,
+      "avgPerSprint": 8.2,
+      "teamPct": 27.2,
       "pointsBySprint": [
         3,
         8,
         13,
-        7
+        7,
+        10
+      ]
+    },
+    {
+      "name": "gustavo.silva",
+      "totalPoints": 34,
+      "sprintsActive": 5,
+      "avgPerSprint": 6.8,
+      "teamPct": 22.5,
+      "pointsBySprint": [
+        8,
+        13,
+        7,
+        4,
+        2
       ]
     },
     {
       "name": "Kayque Moreira",
-      "totalPoints": 23,
-      "sprintsActive": 4,
-      "avgPerSprint": 5.8,
-      "teamPct": 19.0,
+      "totalPoints": 28,
+      "sprintsActive": 5,
+      "avgPerSprint": 5.6,
+      "teamPct": 18.5,
       "pointsBySprint": [
         10,
         5,
         5,
-        3
+        3,
+        5
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 48
+      "count": 62
     },
     {
       "label": "Bug",

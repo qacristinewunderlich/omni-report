@@ -4,10 +4,10 @@
     "squadName": "Manager",
     "boardId": 225,
     "projectKey": "MAN",
-    "generatedAt": "2026-06-15",
+    "generatedAt": "2026-06-22",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 871,
+    "totalIssues": 880,
     "totalPoints": 2291,
     "velocityAvg": 76
   },
@@ -309,17 +309,17 @@
       "end": "2026-06-12",
       "completedAt": "2026-06-15",
       "points": 106,
-      "issues": 38,
+      "issues": 47,
       "growth": -59.7
     }
   ],
   "assignees": [
     {
       "name": "Israel Almeida Cardoso Júnior",
-      "totalPoints": 860,
+      "totalPoints": 876,
       "sprintsActive": 30,
-      "avgPerSprint": 28.7,
-      "teamPct": 37.5,
+      "avgPerSprint": 29.2,
+      "teamPct": 38.2,
       "pointsBySprint": [
         28,
         31,
@@ -347,10 +347,10 @@
         36,
         8,
         61,
-        36,
+        33,
         62,
         64,
-        53
+        72
       ]
     },
     {
@@ -433,10 +433,10 @@
     },
     {
       "name": "Bruno Bianchini",
-      "totalPoints": 225,
+      "totalPoints": 230,
       "sprintsActive": 16,
-      "avgPerSprint": 14.1,
-      "teamPct": 9.8,
+      "avgPerSprint": 14.4,
+      "teamPct": 10.0,
       "pointsBySprint": [
         0,
         0,
@@ -467,15 +467,15 @@
         19,
         22,
         28,
-        20
+        25
       ]
     },
     {
       "name": "Bruno Alves",
-      "totalPoints": 131,
+      "totalPoints": 145,
       "sprintsActive": 7,
-      "avgPerSprint": 18.7,
-      "teamPct": 5.7,
+      "avgPerSprint": 20.7,
+      "teamPct": 6.3,
       "pointsBySprint": [
         0,
         0,
@@ -506,7 +506,7 @@
         20,
         29,
         21,
-        13
+        27
       ]
     },
     {
@@ -747,7 +747,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 605
+      "count": 612
     },
     {
       "label": "Bug",
@@ -755,7 +755,7 @@
     },
     {
       "label": "História",
-      "count": 38
+      "count": 40
     },
     {
       "label": "Spike",
