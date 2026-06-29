@@ -4,12 +4,12 @@
     "squadName": "After Sales",
     "boardId": 590,
     "projectKey": "AS",
-    "generatedAt": "2026-06-22",
+    "generatedAt": "2026-06-29",
     "sourceMetric": "Concluído (statusCategory = done)",
-    "totalSprints": 20,
-    "totalIssues": 436,
-    "totalPoints": 1138,
-    "velocityAvg": 57
+    "totalSprints": 21,
+    "totalIssues": 461,
+    "totalPoints": 1211,
+    "velocityAvg": 58
   },
   "sprints": [
     {
@@ -98,9 +98,9 @@
       "start": "2025-12-09",
       "end": "2025-12-18",
       "completedAt": "2025-12-22",
-      "points": 54,
+      "points": 61,
       "issues": 24,
-      "growth": -12.9
+      "growth": -1.6
     },
     {
       "id": 10,
@@ -110,7 +110,7 @@
       "completedAt": "2026-01-16",
       "points": 74,
       "issues": 23,
-      "growth": 37.0
+      "growth": 21.3
     },
     {
       "id": 11,
@@ -211,15 +211,25 @@
       "points": 68,
       "issues": 27,
       "growth": 6.2
+    },
+    {
+      "id": 21,
+      "name": "Sprint 21",
+      "start": "2026-06-16",
+      "end": "2026-06-25",
+      "completedAt": "2026-06-26",
+      "points": 66,
+      "issues": 25,
+      "growth": -2.9
     }
   ],
   "assignees": [
     {
       "name": "Yuri de Paula Oliveira",
-      "totalPoints": 517,
-      "sprintsActive": 20,
+      "totalPoints": 544,
+      "sprintsActive": 21,
       "avgPerSprint": 25.9,
-      "teamPct": 45.4,
+      "teamPct": 44.9,
       "pointsBySprint": [
         21,
         17,
@@ -240,15 +250,16 @@
         23,
         46,
         29,
-        23
+        23,
+        27
       ]
     },
     {
       "name": "Marlon Carvalho",
-      "totalPoints": 284,
-      "sprintsActive": 14,
-      "avgPerSprint": 20.3,
-      "teamPct": 25.0,
+      "totalPoints": 300,
+      "sprintsActive": 15,
+      "avgPerSprint": 20.0,
+      "teamPct": 24.8,
       "pointsBySprint": [
         0,
         0,
@@ -269,15 +280,16 @@
         0,
         0,
         16,
-        18
+        18,
+        16
       ]
     },
     {
       "name": "Gabriel Mazzardo",
-      "totalPoints": 233,
-      "sprintsActive": 19,
-      "avgPerSprint": 12.3,
-      "teamPct": 20.5,
+      "totalPoints": 239,
+      "sprintsActive": 20,
+      "avgPerSprint": 11.9,
+      "teamPct": 19.7,
       "pointsBySprint": [
         10,
         14,
@@ -298,15 +310,16 @@
         15,
         4,
         13,
-        8
+        8,
+        6
       ]
     },
     {
       "name": "jorge.cunha",
-      "totalPoints": 81,
-      "sprintsActive": 5,
-      "avgPerSprint": 16.2,
-      "teamPct": 7.1,
+      "totalPoints": 96,
+      "sprintsActive": 6,
+      "avgPerSprint": 16.0,
+      "teamPct": 7.9,
       "pointsBySprint": [
         0,
         0,
@@ -327,7 +340,8 @@
         19,
         22,
         12,
-        17
+        17,
+        15
       ]
     },
     {
@@ -335,7 +349,7 @@
       "totalPoints": 50,
       "sprintsActive": 10,
       "avgPerSprint": 5.0,
-      "teamPct": 4.4,
+      "teamPct": 4.1,
       "pointsBySprint": [
         0,
         0,
@@ -356,14 +370,15 @@
         9,
         6,
         0,
+        0,
         0
       ]
     },
     {
       "name": "Tiago Soares de Gois",
-      "totalPoints": 25,
-      "sprintsActive": 6,
-      "avgPerSprint": 4.2,
+      "totalPoints": 27,
+      "sprintsActive": 7,
+      "avgPerSprint": 3.9,
       "teamPct": 2.2,
       "pointsBySprint": [
         3,
@@ -385,7 +400,8 @@
         0,
         0,
         5,
-        0
+        0,
+        2
       ]
     },
     {
@@ -414,14 +430,15 @@
         0,
         0,
         0,
-        2
+        2,
+        0
       ]
     }
   ],
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 337
+      "count": 357
     },
     {
       "label": "Subtarefa",
@@ -429,11 +446,11 @@
     },
     {
       "label": "Bug",
-      "count": 30
+      "count": 34
     },
     {
       "label": "Spike",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Épico",

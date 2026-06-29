@@ -4,24 +4,14 @@
     "squadName": "Sales",
     "boardId": 220,
     "projectKey": "SAL",
-    "generatedAt": "2026-06-22",
+    "generatedAt": "2026-06-29",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 989,
-    "totalPoints": 2576,
-    "velocityAvg": 86
+    "totalIssues": 1007,
+    "totalPoints": 2672,
+    "velocityAvg": 89
   },
   "sprints": [
-    {
-      "id": 7,
-      "name": "Sales / sprint 7",
-      "start": "2025-04-23",
-      "end": "2025-05-02",
-      "completedAt": "2025-05-02",
-      "points": 52,
-      "issues": 17,
-      "growth": null
-    },
     {
       "id": 7,
       "name": "WR - Sprint 7",
@@ -30,7 +20,7 @@
       "completedAt": "2025-05-19",
       "points": 74,
       "issues": 29,
-      "growth": 42.3
+      "growth": null
     },
     {
       "id": 8,
@@ -198,9 +188,9 @@
       "start": "2025-12-22",
       "end": "2026-01-16",
       "completedAt": "2026-01-15",
-      "points": 81,
+      "points": 144,
       "issues": 38,
-      "growth": -14.7
+      "growth": 51.6
     },
     {
       "id": 25,
@@ -210,7 +200,7 @@
       "completedAt": "2026-01-29",
       "points": 83,
       "issues": 29,
-      "growth": 2.5
+      "growth": -42.4
     },
     {
       "id": 26,
@@ -309,19 +299,28 @@
       "end": "2026-06-12",
       "completedAt": "2026-06-12",
       "points": 72,
-      "issues": 45,
+      "issues": 51,
       "growth": -28.7
+    },
+    {
+      "id": 35,
+      "name": "Sprint 35",
+      "start": "2026-06-15",
+      "end": "2026-06-25",
+      "completedAt": "2026-06-25",
+      "points": 85,
+      "issues": 29,
+      "growth": 18.1
     }
   ],
   "assignees": [
     {
       "name": "Lucas Viana",
-      "totalPoints": 871,
+      "totalPoints": 883,
       "sprintsActive": 28,
-      "avgPerSprint": 31.1,
-      "teamPct": 33.8,
+      "avgPerSprint": 31.5,
+      "teamPct": 33.0,
       "pointsBySprint": [
-        13,
         0,
         6,
         25,
@@ -350,17 +349,17 @@
         7,
         47,
         0,
-        28
+        36,
+        17
       ]
     },
     {
       "name": "Luís Marchi",
-      "totalPoints": 694,
-      "sprintsActive": 23,
-      "avgPerSprint": 30.2,
-      "teamPct": 26.9,
+      "totalPoints": 746,
+      "sprintsActive": 24,
+      "avgPerSprint": 31.1,
+      "teamPct": 27.9,
       "pointsBySprint": [
-        0,
         19,
         0,
         8,
@@ -389,7 +388,8 @@
         10,
         25,
         0,
-        53
+        61,
+        44
       ]
     },
     {
@@ -397,9 +397,8 @@
       "totalPoints": 611,
       "sprintsActive": 27,
       "avgPerSprint": 22.6,
-      "teamPct": 23.7,
+      "teamPct": 22.9,
       "pointsBySprint": [
-        0,
         0,
         14,
         17,
@@ -428,17 +427,17 @@
         20,
         40,
         0,
-        19
+        19,
+        0
       ]
     },
     {
       "name": "Vanderson Mantovani",
-      "totalPoints": 172,
-      "sprintsActive": 6,
-      "avgPerSprint": 28.7,
-      "teamPct": 6.7,
+      "totalPoints": 141,
+      "sprintsActive": 5,
+      "avgPerSprint": 28.2,
+      "teamPct": 5.3,
       "pointsBySprint": [
-        31,
         0,
         41,
         26,
@@ -467,56 +466,17 @@
         0,
         0,
         0,
-        0
-      ]
-    },
-    {
-      "name": "Gabriel Rodrigues Neves",
-      "totalPoints": 121,
-      "sprintsActive": 10,
-      "avgPerSprint": 12.1,
-      "teamPct": 4.7,
-      "pointsBySprint": [
-        8,
-        0,
-        16,
-        9,
-        16,
-        13,
-        10,
-        16,
-        12,
-        14,
-        7,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0
       ]
     },
     {
       "name": "Tiago Soares de Gois",
-      "totalPoints": 111,
-      "sprintsActive": 16,
-      "avgPerSprint": 6.9,
-      "teamPct": 4.3,
+      "totalPoints": 128,
+      "sprintsActive": 17,
+      "avgPerSprint": 7.5,
+      "teamPct": 4.8,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -545,17 +505,56 @@
         3,
         5,
         0,
-        10
+        10,
+        17
+      ]
+    },
+    {
+      "name": "Gabriel Rodrigues Neves",
+      "totalPoints": 113,
+      "sprintsActive": 9,
+      "avgPerSprint": 12.6,
+      "teamPct": 4.2,
+      "pointsBySprint": [
+        0,
+        16,
+        9,
+        16,
+        13,
+        10,
+        16,
+        12,
+        14,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
       "name": "Cristine Wunderlich",
-      "totalPoints": 74,
-      "sprintsActive": 8,
+      "totalPoints": 83,
+      "sprintsActive": 9,
       "avgPerSprint": 9.2,
-      "teamPct": 2.9,
+      "teamPct": 3.1,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -584,17 +583,17 @@
         11,
         14,
         0,
+        9,
         6
       ]
     },
     {
       "name": "Carlos Machado",
-      "totalPoints": 66,
-      "sprintsActive": 4,
-      "avgPerSprint": 16.5,
-      "teamPct": 2.6,
+      "totalPoints": 75,
+      "sprintsActive": 5,
+      "avgPerSprint": 15.0,
+      "teamPct": 2.8,
       "pointsBySprint": [
-        0,
         0,
         0,
         0,
@@ -623,7 +622,8 @@
         25,
         15,
         0,
-        15
+        15,
+        9
       ]
     },
     {
@@ -631,9 +631,8 @@
       "totalPoints": 44,
       "sprintsActive": 5,
       "avgPerSprint": 8.8,
-      "teamPct": 1.7,
+      "teamPct": 1.6,
       "pointsBySprint": [
-        0,
         0,
         0,
         2,
@@ -662,7 +661,8 @@
         0,
         0,
         25,
-        8
+        8,
+        0
       ]
     },
     {
@@ -696,10 +696,10 @@
         0,
         0,
         0,
-        0,
         23,
         13,
         6,
+        0,
         0,
         0
       ]
@@ -738,8 +738,8 @@
         0,
         0,
         0,
-        0,
         31,
+        0,
         0
       ]
     },
@@ -750,8 +750,8 @@
       "avgPerSprint": 23.0,
       "teamPct": 0.9,
       "pointsBySprint": [
-        0,
         23,
+        0,
         0,
         0,
         0,
@@ -789,8 +789,8 @@
       "avgPerSprint": 14.0,
       "teamPct": 0.5,
       "pointsBySprint": [
-        0,
         14,
+        0,
         0,
         0,
         0,
@@ -828,8 +828,8 @@
       "avgPerSprint": 13.0,
       "teamPct": 0.5,
       "pointsBySprint": [
-        0,
         13,
+        0,
         0,
         0,
         0,
@@ -865,7 +865,7 @@
       "totalPoints": 12,
       "sprintsActive": 1,
       "avgPerSprint": 12.0,
-      "teamPct": 0.5,
+      "teamPct": 0.4,
       "pointsBySprint": [
         0,
         0,
@@ -894,8 +894,8 @@
         0,
         0,
         0,
-        0,
         12,
+        0,
         0
       ]
     },
@@ -904,7 +904,7 @@
       "totalPoints": 12,
       "sprintsActive": 1,
       "avgPerSprint": 12.0,
-      "teamPct": 0.5,
+      "teamPct": 0.4,
       "pointsBySprint": [
         0,
         0,
@@ -933,8 +933,8 @@
         0,
         0,
         0,
-        0,
         12,
+        0,
         0
       ]
     },
@@ -945,7 +945,6 @@
       "avgPerSprint": 2.3,
       "teamPct": 0.3,
       "pointsBySprint": [
-        0,
         2,
         0,
         2,
@@ -954,6 +953,7 @@
         0,
         0,
         3,
+        0,
         0,
         0,
         0,
@@ -1006,13 +1006,13 @@
         0,
         0,
         0,
-        0,
         2,
         0,
         0,
         0,
         0,
         5,
+        0,
         0
       ]
     },
@@ -1033,11 +1033,11 @@
         0,
         0,
         0,
-        0,
         2,
         2,
         0,
         2,
+        0,
         0,
         0,
         0,
@@ -1071,8 +1071,8 @@
         0,
         0,
         0,
-        0,
         5,
+        0,
         0,
         0,
         0,
@@ -1128,8 +1128,8 @@
         0,
         0,
         0,
-        0,
         5,
+        0,
         0
       ]
     },
@@ -1167,8 +1167,8 @@
         0,
         0,
         0,
-        0,
         5,
+        0,
         0
       ]
     },
@@ -1179,8 +1179,8 @@
       "avgPerSprint": 3.0,
       "teamPct": 0.1,
       "pointsBySprint": [
-        0,
         3,
+        0,
         0,
         0,
         0,
@@ -1245,8 +1245,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0
       ]
     },
@@ -1284,8 +1284,8 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0
       ]
     },
@@ -1302,8 +1302,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         0,
         0,
         0,
@@ -1351,9 +1351,9 @@
         0,
         0,
         0,
+        1,
+        1,
         0,
-        1,
-        1,
         0,
         0,
         0,
@@ -1386,8 +1386,8 @@
         0,
         0,
         0,
-        0,
         1,
+        0,
         0,
         0,
         0,
@@ -1410,11 +1410,11 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 576
+      "count": 581
     },
     {
       "label": "Bug",
-      "count": 385
+      "count": 397
     },
     {
       "label": "Spike",
@@ -1426,7 +1426,7 @@
     },
     {
       "label": "Melhoria",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Nova função",

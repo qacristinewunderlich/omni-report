@@ -4,10 +4,10 @@
     "squadName": "Copilot",
     "boardId": 216,
     "projectKey": "CP",
-    "generatedAt": "2026-06-22",
+    "generatedAt": "2026-06-29",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1085,
+    "totalIssues": 1115,
     "totalPoints": 2417,
     "velocityAvg": 81
   },
@@ -299,7 +299,7 @@
       "end": "2026-05-29",
       "completedAt": "2026-06-01",
       "points": 78,
-      "issues": 36,
+      "issues": 51,
       "growth": 52.9
     },
     {
@@ -309,7 +309,7 @@
       "end": "2026-06-12",
       "completedAt": "2026-06-15",
       "points": 80,
-      "issues": 24,
+      "issues": 39,
       "growth": 2.6
     }
   ],
@@ -393,6 +393,45 @@
       ]
     },
     {
+      "name": "Alexander Dorow",
+      "totalPoints": 338,
+      "sprintsActive": 25,
+      "avgPerSprint": 13.5,
+      "teamPct": 14.0,
+      "pointsBySprint": [
+        4,
+        3,
+        0,
+        20,
+        7,
+        11,
+        11,
+        6,
+        21,
+        7,
+        1,
+        0,
+        6,
+        0,
+        31,
+        20,
+        12,
+        2,
+        6,
+        0,
+        10,
+        7,
+        13,
+        4,
+        29,
+        43,
+        13,
+        0,
+        19,
+        32
+      ]
+    },
+    {
       "name": "Rosines da Silva Almeida",
       "totalPoints": 335,
       "sprintsActive": 12,
@@ -429,45 +468,6 @@
         33,
         36,
         32
-      ]
-    },
-    {
-      "name": "Alexander Dorow",
-      "totalPoints": 310,
-      "sprintsActive": 25,
-      "avgPerSprint": 12.4,
-      "teamPct": 12.8,
-      "pointsBySprint": [
-        4,
-        3,
-        0,
-        20,
-        7,
-        11,
-        11,
-        6,
-        21,
-        7,
-        1,
-        0,
-        6,
-        0,
-        31,
-        20,
-        12,
-        2,
-        6,
-        0,
-        10,
-        7,
-        13,
-        4,
-        29,
-        43,
-        13,
-        0,
-        8,
-        15
       ]
     },
     {
@@ -864,7 +864,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 735
+      "count": 763
     },
     {
       "label": "Melhoria",
@@ -880,7 +880,7 @@
     },
     {
       "label": "Épico",
-      "count": 14
+      "count": 16
     }
   ]
 }

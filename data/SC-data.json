@@ -4,10 +4,10 @@
     "squadName": "Commerce",
     "boardId": 152,
     "projectKey": "SC",
-    "generatedAt": "2026-06-22",
+    "generatedAt": "2026-06-29",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 30,
-    "totalIssues": 1101,
+    "totalIssues": 1102,
     "totalPoints": 1807,
     "velocityAvg": 60
   },
@@ -279,7 +279,7 @@
       "end": "2026-05-02",
       "completedAt": "2026-04-22",
       "points": 84,
-      "issues": 76,
+      "issues": 77,
       "growth": 78.7
     },
     {
@@ -1800,7 +1800,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 731
+      "count": 732
     },
     {
       "label": "Bug",

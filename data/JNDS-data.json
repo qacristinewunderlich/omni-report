@@ -4,10 +4,10 @@
     "squadName": "Jornadas",
     "boardId": 889,
     "projectKey": "JNDS",
-    "generatedAt": "2026-06-22",
+    "generatedAt": "2026-06-29",
     "sourceMetric": "Concluído (statusCategory = done)",
     "totalSprints": 5,
-    "totalIssues": 64,
+    "totalIssues": 65,
     "totalPoints": 151,
     "velocityAvg": 30
   },
@@ -59,23 +59,23 @@
       "end": "2026-06-19",
       "completedAt": "2026-06-22",
       "points": 30,
-      "issues": 14,
+      "issues": 15,
       "growth": 36.4
     }
   ],
   "assignees": [
     {
       "name": "Matheus Kroska",
-      "totalPoints": 54,
+      "totalPoints": 55,
       "sprintsActive": 5,
-      "avgPerSprint": 10.8,
-      "teamPct": 35.8,
+      "avgPerSprint": 11.0,
+      "teamPct": 36.4,
       "pointsBySprint": [
         11,
         9,
         15,
         7,
-        12
+        13
       ]
     },
     {
@@ -124,7 +124,7 @@
   "issueTypes": [
     {
       "label": "Tarefa",
-      "count": 62
+      "count": 63
     },
     {
       "label": "Bug",
